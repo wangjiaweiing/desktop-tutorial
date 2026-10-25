@@ -2,6 +2,9 @@
 
 一个自用的 GitHub 项目趋势工具：每天扫描活跃仓库，按「总 Star」和「近 7 天增速」两个维度出榜，每个条目都带领域标签、中文功能说明、上手方式和商用许可标注。
 
+**线上地址**：https://wangjiaweiing.github.io/desktop-tutorial/
+**数据仓库**：https://github.com/wangjiaweiing/desktop-tutorial
+
 纯 Python 标准库 + 单文件静态页面，无第三方依赖，零构建步骤。
 
 ## 目录结构
@@ -88,7 +91,11 @@ LLM_MODEL=deepseek-chat
 
 ## 定时任务
 
-每天由 WorkBuddy 的定时任务驱动，流程即上面三步。任务只在本地/智能体侧执行，不依赖 GitHub Actions（`.github/workflows/daily.yml.disabled` 是早期版本，已停用）。
+每天由 WorkBuddy 的定时任务驱动（08:00），流程即上面三步。任务只在本地/智能体侧执行，不依赖 GitHub Actions（`.github/workflows/daily.yml.disabled` 是早期版本，已停用）。
+
+**发布方式**：默认走 GitHub 的 Git Data API（`api.github.com`），一次请求组一个干净提交，不依赖 github.com 的 git 协议——本机 `git push` 被网络挡住时照样能发。内容比对用的是 blob sha，没变化的文件不会重复上传。想改回 git push 用 `python scripts/publish.py --via git`。
+
+**Pages**：仓库根目录发布，`main` 分支，构建一次约 30 秒。数据文件随代码一起更新，页面刷新即生效。
 
 ## 工作原理
 

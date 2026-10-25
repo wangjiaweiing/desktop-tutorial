@@ -651,6 +651,11 @@ def stage_apply() -> int:
     store = load_json(REPOS_JSON, {"generated_at": None, "repos": []})
     seen = load_json(SEEN_JSON, {})
     manual = load_json(MANUAL_NOTES, {})
+    long_notes = [n for n, v in manual.items()
+                  if len(str(v.get("summary") or "")) > 80
+                  or len(str(v.get("usage") or "")) > 30]
+    if long_notes:
+        log(f"  ⚠️  {len(long_notes)} 条说明偏长，可能撑破卡片：{', '.join(long_notes[:5])}")
     by_name = {r["full_name"]: r for r in store.get("repos", []) if r.get("full_name")}
 
     new_count = 0

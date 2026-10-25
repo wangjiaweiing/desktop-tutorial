@@ -1,4 +1,40 @@
 {
+ "2dust/v2rayN": {
+  "first_seen": "2026-10-25",
+  "category": "桌面应用"
+ },
+ "521xueweihan/HelloGitHub": {
+  "first_seen": "2026-10-25",
+  "category": "学习资源"
+ },
+ "ARahim3/DigUp": {
+  "first_seen": "2026-10-25",
+  "category": "桌面应用"
+ },
+ "Anduin2017/HowToCook": {
+  "first_seen": "2026-10-25",
+  "category": "学习资源"
+ },
+ "Chalarangelo/30-seconds-of-code": {
+  "first_seen": "2026-10-25",
+  "category": "学习资源"
+ },
+ "Comfy-Org/ComfyUI": {
+  "first_seen": "2026-10-25",
+  "category": "AI/机器学习"
+ },
+ "CopilotKit/OpenDots": {
+  "first_seen": "2026-10-25",
+  "category": "AI/机器学习"
+ },
+ "CyC2018/CS-Notes": {
+  "first_seen": "2026-10-25",
+  "category": "学习资源"
+ },
+ "DietrichGebert/ponytail": {
+  "first_seen": "2026-10-25",
+  "category": "AI/机器学习"
+ },
  "EbookFoundation/free-programming-books": {
   "first_seen": "2026-10-25",
   "category": "学习资源"
@@ -7,28 +43,560 @@
   "first_seen": "2026-10-25",
   "category": "桌面应用"
  },
+ "Genymobile/scrcpy": {
+  "first_seen": "2026-10-25",
+  "category": "命令行工具"
+ },
+ "Graphify-Labs/graphify": {
+  "first_seen": "2026-10-25",
+  "category": "数据分析"
+ },
+ "Jakeschincariol/replica-skill": {
+  "first_seen": "2026-10-25",
+  "category": "AI/机器学习"
+ },
+ "JuliusBrussee/caveman": {
+  "first_seen": "2026-10-25",
+  "category": "AI/机器学习"
+ },
+ "KKKKhazix/AIHOT": {
+  "first_seen": "2026-10-25",
+  "category": "AI/机器学习"
+ },
+ "KnifeLemon/Filee": {
+  "first_seen": "2026-10-25",
+  "category": "桌面应用"
+ },
+ "Leonxlnx/taste-skill": {
+  "first_seen": "2026-10-25",
+  "category": "设计/UI"
+ },
+ "Louis-CFM/coucou": {
+  "first_seen": "2026-10-25",
+  "category": "桌面应用"
+ },
+ "NousResearch/hermes-agent": {
+  "first_seen": "2026-10-25",
+  "category": "AI/机器学习"
+ },
+ "Panniantong/Agent-Reach": {
+  "first_seen": "2026-10-25",
+  "category": "爬虫/自动化"
+ },
+ "Shubhamsaboo/awesome-llm-apps": {
+  "first_seen": "2026-10-25",
+  "category": "学习资源"
+ },
+ "Significant-Gravitas/AutoGPT": {
+  "first_seen": "2026-10-25",
+  "category": "AI/机器学习"
+ },
+ "Snailclimb/JavaGuide": {
+  "first_seen": "2026-10-25",
+  "category": "学习资源"
+ },
+ "TauricResearch/TradingAgents": {
+  "first_seen": "2026-10-25",
+  "category": "AI/机器学习"
+ },
+ "TheAlgorithms/Python": {
+  "first_seen": "2026-10-25",
+  "category": "学习资源"
+ },
+ "VoltAgent/awesome-design-md": {
+  "first_seen": "2026-10-25",
+  "category": "设计/UI"
+ },
+ "addyosmani/agent-skills": {
+  "first_seen": "2026-10-25",
+  "category": "AI/机器学习"
+ },
+ "affaan-m/ECC": {
+  "first_seen": "2026-10-25",
+  "category": "AI/机器学习"
+ },
+ "alchaincyf/huashu-art-motion": {
+  "first_seen": "2026-10-25",
+  "category": "设计/UI"
+ },
+ "angular/angular": {
+  "first_seen": "2026-10-25",
+  "category": "前端开发"
+ },
+ "anomalyco/opencode": {
+  "first_seen": "2026-10-25",
+  "category": "AI/机器学习"
+ },
+ "ant-design/ant-design": {
+  "first_seen": "2026-10-25",
+  "category": "前端开发"
+ },
+ "anthropics/claude-code": {
+  "first_seen": "2026-10-25",
+  "category": "AI/机器学习"
+ },
+ "anthropics/skills": {
+  "first_seen": "2026-10-25",
+  "category": "AI/机器学习"
+ },
+ "avelino/awesome-go": {
+  "first_seen": "2026-10-25",
+  "category": "学习资源"
+ },
+ "awesome-selfhosted/awesome-selfhosted": {
+  "first_seen": "2026-10-25",
+  "category": "学习资源"
+ },
+ "axios/axios": {
+  "first_seen": "2026-10-25",
+  "category": "前端开发"
+ },
+ "browser-use/browser-use": {
+  "first_seen": "2026-10-25",
+  "category": "爬虫/自动化"
+ },
+ "clash-verge-rev/clash-verge-rev": {
+  "first_seen": "2026-10-25",
+  "category": "桌面应用"
+ },
+ "d3/d3": {
+  "first_seen": "2026-10-25",
+  "category": "数据分析"
+ },
+ "deepseek-ai/DeepInfer": {
+  "first_seen": "2026-10-25",
+  "category": "AI/机器学习"
+ },
+ "deepseek-ai/deepseek-harness": {
+  "first_seen": "2026-10-25",
+  "category": "AI/机器学习"
+ },
+ "denoland/deno": {
+  "first_seen": "2026-10-25",
+  "category": "后端/服务端"
+ },
+ "earendil-works/pi": {
+  "first_seen": "2026-10-25",
+  "category": "AI/机器学习"
+ },
+ "electron/electron": {
+  "first_seen": "2026-10-25",
+  "category": "桌面应用"
+ },
+ "excalidraw/excalidraw": {
+  "first_seen": "2026-10-25",
+  "category": "设计/UI"
+ },
+ "f/prompts.chat": {
+  "first_seen": "2026-10-25",
+  "category": "AI/机器学习"
+ },
+ "farion1231/cc-switch": {
+  "first_seen": "2026-10-25",
+  "category": "桌面应用"
+ },
+ "fastapi/fastapi": {
+  "first_seen": "2026-10-25",
+  "category": "后端/服务端"
+ },
+ "fatedier/frp": {
+  "first_seen": "2026-10-25",
+  "category": "DevOps/运维"
+ },
+ "firecrawl/firecrawl": {
+  "first_seen": "2026-10-25",
+  "category": "爬虫/自动化"
+ },
+ "flutter/flutter": {
+  "first_seen": "2026-10-25",
+  "category": "移动开发"
+ },
  "freeCodeCamp/freeCodeCamp": {
   "first_seen": "2026-10-25",
   "category": "学习资源"
+ },
+ "garrytan/gstack": {
+  "first_seen": "2026-10-25",
+  "category": "AI/机器学习"
+ },
+ "ggml-org/llama.cpp": {
+  "first_seen": "2026-10-25",
+  "category": "AI/机器学习"
+ },
+ "github/gitignore": {
+  "first_seen": "2026-10-25",
+  "category": "其他"
+ },
+ "github/spec-kit": {
+  "first_seen": "2026-10-25",
+  "category": "AI/机器学习"
+ },
+ "godotengine/godot": {
+  "first_seen": "2026-10-25",
+  "category": "游戏开发"
+ },
+ "golang/go": {
+  "first_seen": "2026-10-25",
+  "category": "后端/服务端"
+ },
+ "google-gemini/gemini-cli": {
+  "first_seen": "2026-10-25",
+  "category": "AI/机器学习"
+ },
+ "google-research/harness2": {
+  "first_seen": "2026-10-25",
+  "category": "AI/机器学习"
+ },
+ "hacksider/Deep-Live-Cam": {
+  "first_seen": "2026-10-25",
+  "category": "AI/机器学习"
+ },
+ "harry0703/MoneyPrinterTurbo": {
+  "first_seen": "2026-10-25",
+  "category": "AI/机器学习"
+ },
+ "huggingface/transformers": {
+  "first_seen": "2026-10-25",
+  "category": "AI/机器学习"
+ },
+ "immich-app/immich": {
+  "first_seen": "2026-10-25",
+  "category": "后端/服务端"
+ },
+ "iptv-org/iptv": {
+  "first_seen": "2026-10-25",
+  "category": "其他"
+ },
+ "jaywcjlove/awesome-mac": {
+  "first_seen": "2026-10-25",
+  "category": "学习资源"
+ },
+ "krahets/hello-algo": {
+  "first_seen": "2026-10-25",
+  "category": "学习资源"
+ },
+ "kubernetes/kubernetes": {
+  "first_seen": "2026-10-25",
+  "category": "DevOps/运维"
+ },
+ "labuladong/fucking-algorithm": {
+  "first_seen": "2026-10-25",
+  "category": "学习资源"
+ },
+ "langchain-ai/langchain": {
+  "first_seen": "2026-10-25",
+  "category": "AI/机器学习"
+ },
+ "langflow-ai/langflow": {
+  "first_seen": "2026-10-25",
+  "category": "AI/机器学习"
+ },
+ "langgenius/dify": {
+  "first_seen": "2026-10-25",
+  "category": "AI/机器学习"
+ },
+ "lemomo-ai/lemo-opuscar": {
+  "first_seen": "2026-10-25",
+  "category": "AI/机器学习"
+ },
+ "ly05010419/MacNativeGames": {
+  "first_seen": "2026-10-25",
+  "category": "游戏开发"
+ },
+ "massgravel/Microsoft-Activation-Scripts": {
+  "first_seen": "2026-10-25",
+  "category": "其他"
+ },
+ "mattpocock/skills": {
+  "first_seen": "2026-10-25",
+  "category": "AI/机器学习"
+ },
+ "microsoft/PowerToys": {
+  "first_seen": "2026-10-25",
+  "category": "桌面应用"
+ },
+ "microsoft/TypeScript": {
+  "first_seen": "2026-10-25",
+  "category": "前端开发"
+ },
+ "microsoft/Web-Dev-For-Beginners": {
+  "first_seen": "2026-10-25",
+  "category": "学习资源"
+ },
+ "microsoft/generative-ai-for-beginners": {
+  "first_seen": "2026-10-25",
+  "category": "学习资源"
+ },
+ "microsoft/markitdown": {
+  "first_seen": "2026-10-25",
+  "category": "命令行工具"
+ },
+ "microsoft/playwright": {
+  "first_seen": "2026-10-25",
+  "category": "爬虫/自动化"
+ },
+ "microsoft/terminal": {
+  "first_seen": "2026-10-25",
+  "category": "命令行工具"
+ },
+ "microsoft/vscode": {
+  "first_seen": "2026-10-25",
+  "category": "桌面应用"
  },
  "morluto/rea": {
   "first_seen": "2026-10-25",
   "category": "安全"
  },
+ "mrdoob/three.js": {
+  "first_seen": "2026-10-25",
+  "category": "前端开发"
+ },
+ "msitarzewski/agency-agents": {
+  "first_seen": "2026-10-25",
+  "category": "AI/机器学习"
+ },
+ "mui/material-ui": {
+  "first_seen": "2026-10-25",
+  "category": "前端开发"
+ },
+ "n8n-io/n8n": {
+  "first_seen": "2026-10-25",
+  "category": "爬虫/自动化"
+ },
+ "neovim/neovim": {
+  "first_seen": "2026-10-25",
+  "category": "命令行工具"
+ },
+ "nextlevelbuilder/ui-ux-pro-max-skill": {
+  "first_seen": "2026-10-25",
+  "category": "设计/UI"
+ },
+ "nexu-io/open-design": {
+  "first_seen": "2026-10-25",
+  "category": "设计/UI"
+ },
  "nilbuild/developer-roadmap": {
   "first_seen": "2026-10-25",
   "category": "学习资源"
+ },
+ "nodejs/node": {
+  "first_seen": "2026-10-25",
+  "category": "后端/服务端"
+ },
+ "obra/superpowers": {
+  "first_seen": "2026-10-25",
+  "category": "AI/机器学习"
+ },
+ "ohmyzsh/ohmyzsh": {
+  "first_seen": "2026-10-25",
+  "category": "命令行工具"
+ },
+ "ollama/ollama": {
+  "first_seen": "2026-10-25",
+  "category": "AI/机器学习"
+ },
+ "omlahore/RemoveMacAI": {
+  "first_seen": "2026-10-25",
+  "category": "桌面应用"
+ },
+ "open-webui/open-webui": {
+  "first_seen": "2026-10-25",
+  "category": "AI/机器学习"
+ },
+ "openai/codex": {
+  "first_seen": "2026-10-25",
+  "category": "AI/机器学习"
+ },
+ "openai/math": {
+  "first_seen": "2026-10-25",
+  "category": "AI/机器学习"
  },
  "openclaw/openclaw": {
   "first_seen": "2026-10-25",
   "category": "AI/机器学习"
  },
+ "oven-sh/bun": {
+  "first_seen": "2026-10-25",
+  "category": "后端/服务端"
+ },
+ "paperclipai/paperclip": {
+  "first_seen": "2026-10-25",
+  "category": "AI/机器学习"
+ },
+ "papers-we-love/papers-we-love": {
+  "first_seen": "2026-10-25",
+  "category": "学习资源"
+ },
+ "practical-tutorials/project-based-learning": {
+  "first_seen": "2026-10-25",
+  "category": "学习资源"
+ },
  "public-apis/public-apis": {
   "first_seen": "2026-10-25",
   "category": "其他"
  },
+ "punkpeye/awesome-mcp-servers": {
+  "first_seen": "2026-10-25",
+  "category": "学习资源"
+ },
+ "puppeteer/puppeteer": {
+  "first_seen": "2026-10-25",
+  "category": "爬虫/自动化"
+ },
+ "pytorch/pytorch": {
+  "first_seen": "2026-10-25",
+  "category": "AI/机器学习"
+ },
+ "rasbt/LLMs-from-scratch": {
+  "first_seen": "2026-10-25",
+  "category": "学习资源"
+ },
+ "react/react": {
+  "first_seen": "2026-10-25",
+  "category": "前端开发"
+ },
+ "react/react-native": {
+  "first_seen": "2026-10-25",
+  "category": "移动开发"
+ },
+ "rehan-remade/universal-modder": {
+  "first_seen": "2026-10-25",
+  "category": "游戏开发"
+ },
+ "ripienaar/free-for-dev": {
+  "first_seen": "2026-10-25",
+  "category": "学习资源"
+ },
+ "ruanyf/weekly": {
+  "first_seen": "2026-10-25",
+  "category": "学习资源"
+ },
+ "rust-lang/rust": {
+  "first_seen": "2026-10-25",
+  "category": "后端/服务端"
+ },
+ "rustdesk/rustdesk": {
+  "first_seen": "2026-10-25",
+  "category": "桌面应用"
+ },
+ "ruvnet/RuView": {
+  "first_seen": "2026-10-25",
+  "category": "其他"
+ },
+ "shadcn-ui/ui": {
+  "first_seen": "2026-10-25",
+  "category": "前端开发"
+ },
+ "shader-effects-inc/shaders": {
+  "first_seen": "2026-10-25",
+  "category": "前端开发"
+ },
+ "stablyai/orca": {
+  "first_seen": "2026-10-25",
+  "category": "AI/机器学习"
+ },
+ "storytold/cadcraft": {
+  "first_seen": "2026-10-25",
+  "category": "设计/UI"
+ },
+ "storytold/designcraft": {
+  "first_seen": "2026-10-25",
+  "category": "设计/UI"
+ },
+ "storytold/effectcraft": {
+  "first_seen": "2026-10-25",
+  "category": "设计/UI"
+ },
+ "storytold/filmcraft": {
+  "first_seen": "2026-10-25",
+  "category": "桌面应用"
+ },
+ "storytold/gridcraft": {
+  "first_seen": "2026-10-25",
+  "category": "桌面应用"
+ },
+ "storytold/lightcraft": {
+  "first_seen": "2026-10-25",
+  "category": "桌面应用"
+ },
+ "storytold/pdfcraft": {
+  "first_seen": "2026-10-25",
+  "category": "桌面应用"
+ },
  "storytold/photocraft": {
   "first_seen": "2026-10-25",
   "category": "桌面应用"
+ },
+ "storytold/vectorcraft": {
+  "first_seen": "2026-10-25",
+  "category": "设计/UI"
+ },
+ "storytold/wordcraft": {
+  "first_seen": "2026-10-25",
+  "category": "桌面应用"
+ },
+ "supabase/supabase": {
+  "first_seen": "2026-10-25",
+  "category": "后端/服务端"
+ },
+ "tailwindlabs/tailwindcss": {
+  "first_seen": "2026-10-25",
+  "category": "前端开发"
+ },
+ "tangency-labs/solidcraft": {
+  "first_seen": "2026-10-25",
+  "category": "设计/UI"
+ },
+ "tauri-apps/tauri": {
+  "first_seen": "2026-10-25",
+  "category": "桌面应用"
+ },
+ "tensorflow/tensorflow": {
+  "first_seen": "2026-10-25",
+  "category": "AI/机器学习"
+ },
+ "thedotmack/claude-mem": {
+  "first_seen": "2026-10-25",
+  "category": "AI/机器学习"
+ },
+ "torvalds/linux": {
+  "first_seen": "2026-10-25",
+  "category": "其他"
+ },
+ "twbs/bootstrap": {
+  "first_seen": "2026-10-25",
+  "category": "前端开发"
+ },
+ "ultraworkers/claw-code": {
+  "first_seen": "2026-10-25",
+  "category": "AI/机器学习"
+ },
+ "vercel/next.js": {
+  "first_seen": "2026-10-25",
+  "category": "前端开发"
+ },
+ "vinta/awesome-python": {
+  "first_seen": "2026-10-25",
+  "category": "学习资源"
+ },
+ "wheresryan22/anatomy": {
+  "first_seen": "2026-10-25",
+  "category": "设计/UI"
+ },
+ "x1xhlol/system-prompts-and-models-of-ai-tools": {
+  "first_seen": "2026-10-25",
+  "category": "AI/机器学习"
+ },
+ "yihui-dev/awesome-opus5-5-videos": {
+  "first_seen": "2026-10-25",
+  "category": "学习资源"
+ },
+ "yt-dlp/yt-dlp": {
+  "first_seen": "2026-10-25",
+  "category": "命令行工具"
+ },
+ "zhongerxin/iPhone-use": {
+  "first_seen": "2026-10-25",
+  "category": "爬虫/自动化"
  }
 }

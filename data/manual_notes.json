@@ -9,6 +9,12 @@
   "summary": "每月推荐有趣且容易上手的开源项目，附中文介绍，适合找练手项目。",
   "usage": "关注月刊，按兴趣点进项目"
  },
+ "ARahim3/DigUp": {
+  "category": "桌面应用",
+  "summary": "按文件内容搜本机资料的离线搜索工具，图片、PDF、录音和代码都能搜到。",
+  "usage": "下载安装包，建好索引后直接搜",
+  "by": "agent"
+ },
  "Anduin2017/HowToCook": {
   "category": "学习资源",
   "summary": "程序员写的家常菜谱，每道菜都标明用量和步骤，照着做不会翻车。",
@@ -23,6 +29,12 @@
   "category": "AI/机器学习",
   "summary": "节点式扩散模型工作台，拖拽连线搭出图像生成流程，可控性极强。",
   "usage": "解压即用或 Docker 部署后开网页"
+ },
+ "CopilotKit/OpenDots": {
+  "category": "AI/机器学习",
+  "summary": "常驻式 AI 同事的开源模板，能在文字对话、电话和 Slack 之间接力干活。",
+  "usage": "克隆后接上模型按文档启动",
+  "by": "agent"
  },
  "CyC2018/CS-Notes": {
   "category": "学习资源",
@@ -54,10 +66,22 @@
   "summary": "把代码库连同文档、SQL 结构和配置文件转成可查询的知识图谱。",
   "usage": "装好后在项目里调用它的命令"
  },
+ "Jakeschincariol/replica-skill": {
+  "category": "AI/机器学习",
+  "summary": "十一个拆解并复刻任意 App 的 Claude 技能，涵盖逆向、重建和找 Bug。",
+  "usage": "装进 Claude 后用技能名触发",
+  "by": "agent"
+ },
  "JuliusBrussee/caveman": {
   "category": "AI/机器学习",
   "summary": "靠精简表达压缩提示词的技能与代理，能砍掉大半 token 消耗。",
   "usage": "作为技能或代理接入编码工具"
+ },
+ "KKKKhazix/AIHOT": {
+  "category": "AI/机器学习",
+  "summary": "用大模型自动筛信源、聚事件、写日报的热点站框架，换个信源就成你的行业站。",
+  "usage": "改好信源配置后用 Docker 一键起服务",
+  "by": "agent"
  },
  "KnifeLemon/Filee": {
   "category": "桌面应用",
@@ -68,6 +92,12 @@
   "category": "设计/UI",
   "summary": "给编码智能体补审美判断的技能，用参考图和浏览器校验代替瞎猜样式。",
   "usage": "作为技能装进编码工具"
+ },
+ "Louis-CFM/coucou": {
+  "category": "桌面应用",
+  "summary": "住在 Mac 刘海里的 AI 小助手，替你盯着 Claude、Codex 等智能体并批准操作。",
+  "usage": "下载 dmg 安装后授予辅助权限",
+  "by": "agent"
  },
  "NousResearch/hermes-agent": {
   "category": "AI/机器学习",
@@ -118,6 +148,12 @@
   "category": "AI/机器学习",
   "summary": "给 AI 编程智能体做性能优化的套件，含技能、记忆、安全和研究流程。",
   "usage": "按文档接入现有 agent 工作流"
+ },
+ "alchaincyf/huashu-art-motion": {
+  "category": "设计/UI",
+  "summary": "让编程智能体把文字故事做成艺术动画的技能包，内含 36 种风格和 9 种解说语法。",
+  "usage": "npx skills add 后让智能体生成",
+  "by": "agent"
  },
  "angular/angular": {
   "category": "前端开发",
@@ -339,6 +375,18 @@
   "summary": "可视化搭建 AI 应用和检索增强流程的平台，支持多模型接入与团队协作。",
   "usage": "Docker Compose 起服务后网页配置"
  },
+ "lemomo-ai/lemo-opuscar": {
+  "category": "AI/机器学习",
+  "summary": "给编程智能体用的 59 种影片风格模板，把故事丢进去就能导出成片。",
+  "usage": "装进 Claude Code 后调用",
+  "by": "agent"
+ },
+ "ly05010419/MacNativeGames": {
+  "category": "游戏开发",
+  "summary": "让《塞尔达传说：旷野之息》和《王国之泪》在 Mac 与 iPhone 上原生运行。",
+  "usage": "准备游戏文件后按文档编译运行",
+  "by": "agent"
+ },
  "massgravel/Microsoft-Activation-Scripts": {
   "category": "其他",
   "summary": "Windows 和 Office 的激活脚本集合，支持 HWID、KMS 等多种激活方式。",
@@ -454,6 +502,12 @@
   "summary": "一条命令在本地跑开源大模型，自动处理模型下载和推理服务。",
   "usage": "装好后 ollama run 模型名"
  },
+ "omlahore/RemoveMacAI": {
+  "category": "桌面应用",
+  "summary": "关掉 macOS 的 Apple Intelligence、遥测和广告弹窗，每项改动都能先预览再撤销。",
+  "usage": "下载 App 或命令行运行后勾选",
+  "by": "agent"
+ },
  "open-webui/open-webui": {
   "category": "AI/机器学习",
   "summary": "可自托管的 AI 对话界面，能接 Ollama 或任意兼容接口，支持多用户。",
@@ -564,15 +618,45 @@
   "summary": "可复制粘贴的 React 组件集合，代码归你所有，样式随便改。",
   "usage": "用命令行把组件添加进项目"
  },
+ "shader-effects-inc/shaders": {
+  "category": "前端开发",
+  "summary": "把 WebGPU 特效封装成组件，React、Vue、Svelte、Solid 里都能直接引用。",
+  "usage": "npm 装好后按组件引入",
+  "by": "agent"
+ },
  "stablyai/orca": {
   "category": "AI/机器学习",
   "summary": "同时管理多个编码智能体的工作台，可并行跑任务并对比各自结果。",
   "usage": "下载客户端后接入各家模型"
  },
+ "storytold/cadcraft": {
+  "category": "设计/UI",
+  "summary": "纯 Rust 写的 2D/3D CAD 制图工具，命令行、对象捕捉、图层和 DXF 都支持。",
+  "usage": "下载安装包或 cargo 编译后运行",
+  "by": "agent"
+ },
+ "storytold/designcraft": {
+  "category": "设计/UI",
+  "summary": "纯 Rust 写的桌面排版与页面设计工具，原生跑三大系统，也能在浏览器里用。",
+  "usage": "下载安装包或浏览器打开网页版",
+  "by": "agent"
+ },
+ "storytold/effectcraft": {
+  "category": "设计/UI",
+  "summary": "纯 Rust 写的动效合成与视觉特效软件，图层、关键帧、3D 相机都齐，对标 AE。",
+  "usage": "下载安装包或从源码编译运行",
+  "by": "agent"
+ },
  "storytold/filmcraft": {
   "category": "桌面应用",
   "summary": "纯 Rust 从零写的非线性视频剪辑器。",
   "usage": "克隆后 cargo run 启动"
+ },
+ "storytold/gridcraft": {
+  "category": "桌面应用",
+  "summary": "纯 Rust 写的高性能电子表格，原生跑在三大系统，也能直接在浏览器里用。",
+  "usage": "下载安装包或浏览器打开网页版",
+  "by": "agent"
  },
  "storytold/lightcraft": {
   "category": "桌面应用",
@@ -673,5 +757,11 @@
   "category": "命令行工具",
   "summary": "功能最全的命令行音视频下载器，支持上千站点、字幕和分段下载。",
   "usage": "pip 安装后执行 yt-dlp 加链接"
+ },
+ "zhongerxin/iPhone-use": {
+  "category": "爬虫/自动化",
+  "summary": "让 Codex 等智能体通过 USB 操作真机 iPhone，能点按、输入并实时看屏幕。",
+  "usage": "装好 WDA 后接入 MCP 服务",
+  "by": "agent"
  }
 }
