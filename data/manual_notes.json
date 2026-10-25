@@ -1,0 +1,677 @@
+{
+ "2dust/v2rayN": {
+  "category": "桌面应用",
+  "summary": "Windows 上的代理客户端，支持 Xray、sing-box 等多种协议。",
+  "usage": "下载压缩包解压后导入订阅"
+ },
+ "521xueweihan/HelloGitHub": {
+  "category": "学习资源",
+  "summary": "每月推荐有趣且容易上手的开源项目，附中文介绍，适合找练手项目。",
+  "usage": "关注月刊，按兴趣点进项目"
+ },
+ "Anduin2017/HowToCook": {
+  "category": "学习资源",
+  "summary": "程序员写的家常菜谱，每道菜都标明用量和步骤，照着做不会翻车。",
+  "usage": "在线按菜名找步骤照做"
+ },
+ "Chalarangelo/30-seconds-of-code": {
+  "category": "学习资源",
+  "summary": "短小实用的代码片段合集，几十秒就能看懂并抄走一段实现。",
+  "usage": "按标签搜片段直接复制"
+ },
+ "Comfy-Org/ComfyUI": {
+  "category": "AI/机器学习",
+  "summary": "节点式扩散模型工作台，拖拽连线搭出图像生成流程，可控性极强。",
+  "usage": "解压即用或 Docker 部署后开网页"
+ },
+ "CyC2018/CS-Notes": {
+  "category": "学习资源",
+  "summary": "技术面试知识笔记，覆盖操作系统、网络、数据库和算法题解。",
+  "usage": "直接在线阅读对应章节"
+ },
+ "DietrichGebert/ponytail": {
+  "category": "AI/机器学习",
+  "summary": "让编程智能体像资深老手那样先想清楚再动手，少写不必要的代码。",
+  "usage": "作为技能装进 Claude Code"
+ },
+ "EbookFoundation/free-programming-books": {
+  "category": "学习资源",
+  "summary": "按语言和主题整理的免费编程书籍清单，全部可合法免费阅读。",
+  "usage": "浏览清单挑书，点链接直接读"
+ },
+ "Gathin23/cleanyourtv": {
+  "category": "桌面应用",
+  "summary": "通过 Wi-Fi 给安卓电视精简预装应用，换成接近 Apple TV 的桌面。",
+  "usage": "装应用后连同一网络执行清理"
+ },
+ "Genymobile/scrcpy": {
+  "category": "命令行工具",
+  "summary": "把安卓手机画面投到电脑并直接用键鼠操作，不需要 root。",
+  "usage": "装好 adb 后数据线连上运行"
+ },
+ "Graphify-Labs/graphify": {
+  "category": "数据分析",
+  "summary": "把代码库连同文档、SQL 结构和配置文件转成可查询的知识图谱。",
+  "usage": "装好后在项目里调用它的命令"
+ },
+ "JuliusBrussee/caveman": {
+  "category": "AI/机器学习",
+  "summary": "靠精简表达压缩提示词的技能与代理，能砍掉大半 token 消耗。",
+  "usage": "作为技能或代理接入编码工具"
+ },
+ "KnifeLemon/Filee": {
+  "category": "桌面应用",
+  "summary": "离线文件格式转换工具，拖拽即可在两百多种格式之间互转。",
+  "usage": "下载安装包安装后拖文件进去"
+ },
+ "Leonxlnx/taste-skill": {
+  "category": "设计/UI",
+  "summary": "给编码智能体补审美判断的技能，用参考图和浏览器校验代替瞎猜样式。",
+  "usage": "作为技能装进编码工具"
+ },
+ "NousResearch/hermes-agent": {
+  "category": "AI/机器学习",
+  "summary": "可长期演进的个人 AI 智能体，支持多家模型后端并保留跨会话记忆。",
+  "usage": "安装后填入模型密钥启动"
+ },
+ "Panniantong/Agent-Reach": {
+  "category": "爬虫/自动化",
+  "summary": "让 AI 智能体能读取和搜索推特、Reddit、B 站等平台内容的工具层。",
+  "usage": "配置账号凭证后接进 agent"
+ },
+ "Shubhamsaboo/awesome-llm-apps": {
+  "category": "学习资源",
+  "summary": "上百个可直接运行的大模型应用示例，覆盖检索增强、智能体和多模态。",
+  "usage": "挑示例克隆后填密钥运行"
+ },
+ "Significant-Gravitas/AutoGPT": {
+  "category": "AI/机器学习",
+  "summary": "自主 AI 智能体平台，给出目标后自行拆解步骤并调用工具执行。",
+  "usage": "克隆后配置密钥启动前端"
+ },
+ "Snailclimb/JavaGuide": {
+  "category": "学习资源",
+  "summary": "Java 后端面试知识体系，涵盖基础、并发、数据库、分布式与系统设计。",
+  "usage": "按目录在线阅读对应专题"
+ },
+ "TauricResearch/TradingAgents": {
+  "category": "AI/机器学习",
+  "summary": "多智能体协作的量化交易研究框架，模拟分析师团队分工产出交易决策。",
+  "usage": "克隆后配模型密钥跑回测"
+ },
+ "TheAlgorithms/Python": {
+  "category": "学习资源",
+  "summary": "用 Python 实现的各种算法合集，每份实现都带注释和测试，适合对着学。",
+  "usage": "按目录找算法直接读源码"
+ },
+ "VoltAgent/awesome-design-md": {
+  "category": "设计/UI",
+  "summary": "把各大品牌设计系统拆解成 DESIGN.md 文档，丢给 AI 就能照着做界面。",
+  "usage": "挑一份放进项目根目录给 AI 读"
+ },
+ "addyosmani/agent-skills": {
+  "category": "AI/机器学习",
+  "summary": "面向 AI 编码智能体的工程技能库，把成熟开发规范固化成可复用技能。",
+  "usage": "复制进 agent 的技能目录"
+ },
+ "affaan-m/ECC": {
+  "category": "AI/机器学习",
+  "summary": "给 AI 编程智能体做性能优化的套件，含技能、记忆、安全和研究流程。",
+  "usage": "按文档接入现有 agent 工作流"
+ },
+ "angular/angular": {
+  "category": "前端开发",
+  "summary": "谷歌的企业级前端框架，依赖注入和模块化体系完整，适合大型应用。",
+  "usage": "ng new 建项目后按文档开发"
+ },
+ "anomalyco/opencode": {
+  "category": "AI/机器学习",
+  "summary": "开源终端编程智能体，能读代码库、改文件、跑命令完成开发任务。",
+  "usage": "一行安装脚本装好后在项目里启动"
+ },
+ "ant-design/ant-design": {
+  "category": "前端开发",
+  "summary": "蚂蚁的企业级 React 组件库，中后台界面的表格表单基本能直接拼出来。",
+  "usage": "npm 安装后按需引入组件"
+ },
+ "anthropics/claude-code": {
+  "category": "AI/机器学习",
+  "summary": "Anthropic 官方的终端编程智能体，能读懂整个代码库并直接改代码。",
+  "usage": "npm 全局安装后在项目目录启动"
+ },
+ "anthropics/skills": {
+  "category": "AI/机器学习",
+  "summary": "Anthropic 官方的智能体技能示例集，演示怎么给 agent 增加新能力。",
+  "usage": "按目录结构复制进自己的技能库"
+ },
+ "avelino/awesome-go": {
+  "category": "学习资源",
+  "summary": "Go 语言框架与库的精选清单，按 Web、数据库、命令行等用途分类。",
+  "usage": "按分类找库，点进各自仓库"
+ },
+ "awesome-selfhosted/awesome-selfhosted": {
+  "category": "学习资源",
+  "summary": "可自己部署的开源服务清单，网盘、笔记、监控、自动化各类工具都有。",
+  "usage": "按分类挑项目看各自部署文档"
+ },
+ "axios/axios": {
+  "category": "前端开发",
+  "summary": "浏览器和 Node 通用的网络请求库，拦截器、超时、取消都处理得很完整。",
+  "usage": "npm 安装后 axios.get 直接调"
+ },
+ "browser-use/browser-use": {
+  "category": "爬虫/自动化",
+  "summary": "让 AI 智能体直接操作浏览器的 Python 库，能点按钮、填表单、抓页面数据。",
+  "usage": "pip 安装后接上模型跑示例"
+ },
+ "clash-verge-rev/clash-verge-rev": {
+  "category": "桌面应用",
+  "summary": "基于 Tauri 的代理客户端图形界面，三大平台都有，规则和订阅管理齐全。",
+  "usage": "下载对应平台安装包安装"
+ },
+ "d3/d3": {
+  "category": "数据分析",
+  "summary": "用数据驱动页面元素的可视化底层库，图表形态完全自由定制。",
+  "usage": "引入后绑定数据自己画图形"
+ },
+ "deepseek-ai/DeepInfer": {
+  "category": "AI/机器学习",
+  "summary": "DeepSeek 官方的大模型推理框架，面向大规模部署做吞吐和显存优化。",
+  "usage": "按文档准备权重后起服务"
+ },
+ "deepseek-ai/deepseek-harness": {
+  "category": "AI/机器学习",
+  "summary": "DeepSeek 官方的智能体运行框架，所有能力以插件形式挂载扩展。",
+  "usage": "克隆后按 README 装依赖启动"
+ },
+ "denoland/deno": {
+  "category": "后端/服务端",
+  "summary": "内置 TypeScript 支持和权限控制的 JS 运行时，开箱即用不用配环境。",
+  "usage": "装好后 deno run 直接跑脚本"
+ },
+ "earendil-works/pi": {
+  "category": "AI/机器学习",
+  "summary": "AI 智能体工具包，提供统一模型接口、智能体循环和终端界面。",
+  "usage": "npm 安装后按文档接模型"
+ },
+ "electron/electron": {
+  "category": "桌面应用",
+  "summary": "用前端技术栈打包跨平台桌面应用的运行时，VS Code、Slack 都是这么做出来的。",
+  "usage": "npm 安装后用官方模板起步"
+ },
+ "excalidraw/excalidraw": {
+  "category": "设计/UI",
+  "summary": "手绘风格的白板工具，画架构图和流程图，支持多人实时协作。",
+  "usage": "打开网页即用，或自行部署"
+ },
+ "f/prompts.chat": {
+  "category": "AI/机器学习",
+  "summary": "社区共享的提示词库，按场景分类，可直接抄用也可以投稿。",
+  "usage": "打开站点搜场景复制提示词"
+ },
+ "farion1231/cc-switch": {
+  "category": "桌面应用",
+  "summary": "一个桌面小工具，集中管理和切换多个 AI 编程工具的配置与账号。",
+  "usage": "下载安装包安装后添加配置"
+ },
+ "fastapi/fastapi": {
+  "category": "后端/服务端",
+  "summary": "Python 高性能 Web 框架，靠类型注解自动做参数校验并生成接口文档。",
+  "usage": "pip 安装后写函数加装饰器即接口"
+ },
+ "fatedier/frp": {
+  "category": "DevOps/运维",
+  "summary": "内网穿透工具，把防火墙或 NAT 后面的本机服务映射到公网访问。",
+  "usage": "服务端配 frps、客户端配 frpc"
+ },
+ "firecrawl/firecrawl": {
+  "category": "爬虫/自动化",
+  "summary": "把网页抓下来并转成干净 Markdown 的接口服务，专门给 AI 应用喂数据。",
+  "usage": "申请 API Key 后传网址调用"
+ },
+ "flutter/flutter": {
+  "category": "移动开发",
+  "summary": "一套 Dart 代码同时构建 iOS、安卓、桌面和网页应用的界面框架。",
+  "usage": "装 SDK 后 flutter create 建项目"
+ },
+ "freeCodeCamp/freeCodeCamp": {
+  "category": "学习资源",
+  "summary": "免费的编程学习平台，从数学基础到前后端开发都有互动课程和认证项目。",
+  "usage": "访问 freecodecamp.org 在线学"
+ },
+ "garrytan/gstack": {
+  "category": "AI/机器学习",
+  "summary": "一套成型的 Claude Code 配置，内置二十多个扮演不同管理角色的工具。",
+  "usage": "克隆后按 README 接入配置"
+ },
+ "ggml-org/llama.cpp": {
+  "category": "AI/机器学习",
+  "summary": "纯 C/C++ 写的大模型推理引擎，普通处理器和消费级显卡都能跑。",
+  "usage": "克隆后编译，再加载量化模型"
+ },
+ "github/gitignore": {
+  "category": "其他",
+  "summary": "各种语言和框架的 .gitignore 模板集合，新建项目时直接抄一份。",
+  "usage": "按语言搜模板复制进项目根目录"
+ },
+ "github/spec-kit": {
+  "category": "AI/机器学习",
+  "summary": "把需求先写成规范文档再交给 AI 编码的工具包，减少来回返工。",
+  "usage": "用它的命令生成规范再喂给 agent"
+ },
+ "godotengine/godot": {
+  "category": "游戏开发",
+  "summary": "开源跨平台 2D/3D 游戏引擎，自带编辑器，商用不用分成。",
+  "usage": "下载引擎包解压后新建项目"
+ },
+ "golang/go": {
+  "category": "后端/服务端",
+  "summary": "Go 语言官方源码仓库，包含编译器、运行时和标准库。",
+  "usage": "下载官方安装包配置环境变量"
+ },
+ "google-gemini/gemini-cli": {
+  "category": "AI/机器学习",
+  "summary": "谷歌的终端 AI 智能体，把 Gemini 接进命令行处理代码和文件。",
+  "usage": "npm 安装后登录账号即可用"
+ },
+ "google-research/harness2": {
+  "category": "AI/机器学习",
+  "summary": "谷歌研究团队发布的智能体运行与评测框架，用于跑基准任务、横向对比模型表现。",
+  "usage": "克隆后按 README 配置基准运行"
+ },
+ "hacksider/Deep-Live-Cam": {
+  "category": "AI/机器学习",
+  "summary": "单张照片就能做实时换脸和视频换脸的桌面工具。",
+  "usage": "装依赖后跑脚本选摄像头或视频"
+ },
+ "harry0703/MoneyPrinterTurbo": {
+  "category": "AI/机器学习",
+  "summary": "输入主题就自动生成短视频，串起文案、配音、素材和字幕合成全流程。",
+  "usage": "启动网页界面填主题一键生成"
+ },
+ "huggingface/transformers": {
+  "category": "AI/机器学习",
+  "summary": "Hugging Face 的模型定义框架，几行代码就能加载和微调主流预训练模型。",
+  "usage": "pip 安装后用 from_pretrained 加载"
+ },
+ "immich-app/immich": {
+  "category": "后端/服务端",
+  "summary": "自建的照片视频管理服务，自动备份并按人脸、地点检索，可替代云相册。",
+  "usage": "Docker Compose 部署后手机装 App"
+ },
+ "iptv-org/iptv": {
+  "category": "其他",
+  "summary": "全球公开电视直播频道的播放列表集合，按国家和分类整理成 m3u。",
+  "usage": "复制 m3u 链接导入播放器"
+ },
+ "jaywcjlove/awesome-mac": {
+  "category": "学习资源",
+  "summary": "macOS 优质软件清单，按用途分类并标注是否免费，装机时按图索骥。",
+  "usage": "按分类挑软件点进官网下载"
+ },
+ "krahets/hello-algo": {
+  "category": "学习资源",
+  "summary": "带动画图解的数据结构与算法教程，多语言代码可一键运行。",
+  "usage": "在线阅读或本地起文档站"
+ },
+ "kubernetes/kubernetes": {
+  "category": "DevOps/运维",
+  "summary": "容器编排系统源码，负责集群调度、扩缩容、服务发现和滚动发布。",
+  "usage": "用 kubeadm 或发行版工具搭集群"
+ },
+ "labuladong/fucking-algorithm": {
+  "category": "学习资源",
+  "summary": "刷题方法论教程，讲清算法题的套路和推导过程，而不只是给答案。",
+  "usage": "在线阅读，按专题顺序刷"
+ },
+ "langchain-ai/langchain": {
+  "category": "AI/机器学习",
+  "summary": "构建大模型应用的基础框架，把模型、工具、记忆和检索串成完整链路。",
+  "usage": "pip 安装后按官方模板起步"
+ },
+ "langflow-ai/langflow": {
+  "category": "AI/机器学习",
+  "summary": "拖拽节点搭建智能体和流程的可视化工具，搭完即可发布成接口。",
+  "usage": "pip 安装后运行 langflow 打开画布"
+ },
+ "langgenius/dify": {
+  "category": "AI/机器学习",
+  "summary": "可视化搭建 AI 应用和检索增强流程的平台，支持多模型接入与团队协作。",
+  "usage": "Docker Compose 起服务后网页配置"
+ },
+ "massgravel/Microsoft-Activation-Scripts": {
+  "category": "其他",
+  "summary": "Windows 和 Office 的激活脚本集合，支持 HWID、KMS 等多种激活方式。",
+  "usage": "下载后以管理员运行脚本选模式"
+ },
+ "mattpocock/skills": {
+  "category": "AI/机器学习",
+  "summary": "作者自用的 AI 编程技能集，覆盖需求拆解、重构、测试等常见开发动作。",
+  "usage": "复制到 .agents 目录直接调用"
+ },
+ "microsoft/PowerToys": {
+  "category": "桌面应用",
+  "summary": "微软出品的 Windows 效率工具集，含窗口分屏、取色器、批量重命名等。",
+  "usage": "下载安装包安装后按需开启模块"
+ },
+ "microsoft/TypeScript": {
+  "category": "前端开发",
+  "summary": "给 JavaScript 加上静态类型系统的语言，编译期就能发现类型错误。",
+  "usage": "npm 安装 tsc 后初始化配置"
+ },
+ "microsoft/Web-Dev-For-Beginners": {
+  "category": "学习资源",
+  "summary": "微软的 Web 开发入门课，12 周 24 节课，从 HTML 讲到项目部署。",
+  "usage": "按课程顺序边学边做项目"
+ },
+ "microsoft/generative-ai-for-beginners": {
+  "category": "学习资源",
+  "summary": "微软的生成式 AI 入门课，21 节课带可跑代码，从提示词讲到应用开发。",
+  "usage": "按课程序号边看边跑 notebook"
+ },
+ "microsoft/markitdown": {
+  "category": "命令行工具",
+  "summary": "把 PDF、Word、PPT 等文档转成 Markdown 的命令行工具和 Python 库。",
+  "usage": "pip 安装后 markitdown 加文件路径"
+ },
+ "microsoft/playwright": {
+  "category": "爬虫/自动化",
+  "summary": "跨浏览器自动化与端到端测试框架，一套接口驱动三大浏览器内核。",
+  "usage": "npm 安装后运行 playwright test"
+ },
+ "microsoft/terminal": {
+  "category": "命令行工具",
+  "summary": "Windows 的新终端程序，支持多标签、分屏和 GPU 渲染，替代老旧控制台。",
+  "usage": "商店搜索 Windows Terminal 安装"
+ },
+ "microsoft/vscode": {
+  "category": "桌面应用",
+  "summary": "微软的跨平台代码编辑器，插件生态最庞大，前后端都能写。",
+  "usage": "下载安装包安装后装插件"
+ },
+ "morluto/rea": {
+  "category": "安全",
+  "summary": "让智能体做逆向工程，从应用行为一路分析到原生二进制文件。",
+  "usage": "安装命令行工具后接入 agent"
+ },
+ "mrdoob/three.js": {
+  "category": "前端开发",
+  "summary": "浏览器里的 3D 图形库，用 JavaScript 做 WebGL 场景、动画和交互。",
+  "usage": "npm 安装后建场景相机渲染循环"
+ },
+ "msitarzewski/agency-agents": {
+  "category": "AI/机器学习",
+  "summary": "一整套模拟公司岗位的智能体角色设定，前端、运营、文案各司其职。",
+  "usage": "把角色文件导入自己的 agent"
+ },
+ "mui/material-ui": {
+  "category": "前端开发",
+  "summary": "实现 Material Design 的 React 组件库，组件和主题体系都很完整。",
+  "usage": "npm 安装后包一层主题提供者"
+ },
+ "n8n-io/n8n": {
+  "category": "爬虫/自动化",
+  "summary": "可视化工作流自动化平台，拖拽节点串起接口调用和数据处理，也能写自定义代码。",
+  "usage": "Docker 一行命令拉起后网页配置"
+ },
+ "neovim/neovim": {
+  "category": "命令行工具",
+  "summary": "Vim 的重构版本，保留模态编辑并加上异步插件机制和 Lua 配置。",
+  "usage": "装好后用 init.lua 配插件"
+ },
+ "nextlevelbuilder/ui-ux-pro-max-skill": {
+  "category": "设计/UI",
+  "summary": "给 AI 编程智能体补设计能力的技能包，让它产出更专业的界面方案。",
+  "usage": "作为技能安装到编码工具"
+ },
+ "nexu-io/open-design": {
+  "category": "设计/UI",
+  "summary": "本地优先的 AI 设计协作工作区，能出原型、动效和网页稿。",
+  "usage": "克隆后本地起服务打开画布"
+ },
+ "nilbuild/developer-roadmap": {
+  "category": "学习资源",
+  "summary": "交互式开发者成长路线图，前端、后端、DevOps、AI 各方向都有分阶段指引。",
+  "usage": "打开 roadmap.sh 选方向跟着走"
+ },
+ "nodejs/node": {
+  "category": "后端/服务端",
+  "summary": "Node.js 运行时源码，让 JavaScript 能脱离浏览器在服务端执行。",
+  "usage": "下载 LTS 安装包直接安装"
+ },
+ "obra/superpowers": {
+  "category": "AI/机器学习",
+  "summary": "面向 AI 编程智能体的技能框架与开发方法论，把工程流程固化进 agent。",
+  "usage": "作为技能目录接入 Claude Code"
+ },
+ "ohmyzsh/ohmyzsh": {
+  "category": "命令行工具",
+  "summary": "管理 zsh 配置的框架，自带大量主题和插件，一条命令就能美化终端。",
+  "usage": "一行脚本安装后改 .zshrc"
+ },
+ "ollama/ollama": {
+  "category": "AI/机器学习",
+  "summary": "一条命令在本地跑开源大模型，自动处理模型下载和推理服务。",
+  "usage": "装好后 ollama run 模型名"
+ },
+ "open-webui/open-webui": {
+  "category": "AI/机器学习",
+  "summary": "可自托管的 AI 对话界面，能接 Ollama 或任意兼容接口，支持多用户。",
+  "usage": "Docker 一行命令部署后网页访问"
+ },
+ "openai/codex": {
+  "category": "AI/机器学习",
+  "summary": "OpenAI 的轻量终端编程智能体，在命令行里读代码、改文件、跑测试。",
+  "usage": "npm 安装后在项目目录启动"
+ },
+ "openai/math": {
+  "category": "AI/机器学习",
+  "summary": "OpenAI 用 Lean 形式化数学证明的研究项目，探索让模型自动完成数学推理与证明。",
+  "usage": "装 Lean 工具链后编译验证"
+ },
+ "openclaw/openclaw": {
+  "category": "AI/机器学习",
+  "summary": "能真正动手执行任务的 AI 助手，跨操作系统运行，数据留在自己手里。",
+  "usage": "按官方脚本安装后配置模型"
+ },
+ "oven-sh/bun": {
+  "category": "后端/服务端",
+  "summary": "集运行时、打包器、测试器和包管理于一体的 JS 工具链，速度极快。",
+  "usage": "一行脚本安装后替代 node 使用"
+ },
+ "paperclipai/paperclip": {
+  "category": "AI/机器学习",
+  "summary": "团队里管理多个 AI 智能体的协作平台，统一派活并查看各自进度。",
+  "usage": "Docker 部署后网页创建工作区"
+ },
+ "papers-we-love/papers-we-love": {
+  "category": "学习资源",
+  "summary": "计算机科学经典论文合集，按主题整理，适合系统地补底层知识。",
+  "usage": "按主题挑论文下载阅读"
+ },
+ "practical-tutorials/project-based-learning": {
+  "category": "学习资源",
+  "summary": "以动手做项目为主线的编程教程合集，按语言和技术栈分门别类。",
+  "usage": "挑一个感兴趣的项目跟着做"
+ },
+ "public-apis/public-apis": {
+  "category": "其他",
+  "summary": "收录上千个免费公开接口的目录站，按领域分好类，找第三方数据源时先翻这里。",
+  "usage": "打开网站按分类检索即可"
+ },
+ "punkpeye/awesome-mcp-servers": {
+  "category": "学习资源",
+  "summary": "MCP 服务器清单，按能力分类，找现成工具接给自己的 AI 用。",
+  "usage": "按分类挑服务器看接入方式"
+ },
+ "puppeteer/puppeteer": {
+  "category": "爬虫/自动化",
+  "summary": "用 JavaScript 控制 Chrome 的自动化库，做爬虫、截图和页面测试。",
+  "usage": "npm 安装后启动浏览器实例"
+ },
+ "pytorch/pytorch": {
+  "category": "AI/机器学习",
+  "summary": "Meta 的深度学习框架，动态图调试友好，学术研究里用得最多。",
+  "usage": "pip 安装后按教程写张量运算"
+ },
+ "rasbt/LLMs-from-scratch": {
+  "category": "学习资源",
+  "summary": "从零手写一个类 ChatGPT 大模型，逐章实现注意力机制、训练和微调。",
+  "usage": "按章节跑 Jupyter notebook"
+ },
+ "react/react": {
+  "category": "前端开发",
+  "summary": "构建网页与原生界面的 UI 库，用组件化方式管理界面状态和渲染。",
+  "usage": "npm 安装后用 JSX 写组件"
+ },
+ "react/react-native": {
+  "category": "移动开发",
+  "summary": "用 React 写原生移动应用的框架，一套代码出 iOS 和安卓两个版本。",
+  "usage": "npx create-expo-app 起步"
+ },
+ "rehan-remade/universal-modder": {
+  "category": "游戏开发",
+  "summary": "给 Claude 配一套技能和工具，让它能改各种 PC 游戏的模型和资源。",
+  "usage": "按文档装技能后指向游戏目录"
+ },
+ "ripienaar/free-for-dev": {
+  "category": "学习资源",
+  "summary": "提供免费额度的云服务清单，个人项目想零成本起步就按它挑。",
+  "usage": "按分类找服务点进官网注册"
+ },
+ "ruanyf/weekly": {
+  "category": "学习资源",
+  "summary": "阮一峰的科技爱好者周刊，每周五汇总值得一看的文章、工具和资源。",
+  "usage": "直接订阅或在线阅读往期"
+ },
+ "rust-lang/rust": {
+  "category": "后端/服务端",
+  "summary": "Rust 语言官方仓库，包含编译器、标准库和整套工具链。",
+  "usage": "用 rustup 安装工具链"
+ },
+ "rustdesk/rustdesk": {
+  "category": "桌面应用",
+  "summary": "可自建的远程桌面工具，TeamViewer 的开源替代，跨平台直连。",
+  "usage": "下载客户端，或自建中继服务器"
+ },
+ "ruvnet/RuView": {
+  "category": "其他",
+  "summary": "把普通 WiFi 信号变成空间感知能力，做人体存在检测和呼吸心率监测。",
+  "usage": "刷 ESP32 固件后接 Home Assistant"
+ },
+ "shadcn-ui/ui": {
+  "category": "前端开发",
+  "summary": "可复制粘贴的 React 组件集合，代码归你所有，样式随便改。",
+  "usage": "用命令行把组件添加进项目"
+ },
+ "stablyai/orca": {
+  "category": "AI/机器学习",
+  "summary": "同时管理多个编码智能体的工作台，可并行跑任务并对比各自结果。",
+  "usage": "下载客户端后接入各家模型"
+ },
+ "storytold/filmcraft": {
+  "category": "桌面应用",
+  "summary": "纯 Rust 从零写的非线性视频剪辑器。",
+  "usage": "克隆后 cargo run 启动"
+ },
+ "storytold/lightcraft": {
+  "category": "桌面应用",
+  "summary": "纯 Rust 写的非破坏性照片编辑器，支持 RAW 格式处理。",
+  "usage": "克隆后 cargo run 启动"
+ },
+ "storytold/pdfcraft": {
+  "category": "桌面应用",
+  "summary": "纯 Rust 从零实现的 PDF 阅读与编辑器。",
+  "usage": "克隆后 cargo run 启动"
+ },
+ "storytold/photocraft": {
+  "category": "桌面应用",
+  "summary": "纯 Rust 从零写的图片编辑器，不依赖现成图形框架。",
+  "usage": "克隆后 cargo run 启动"
+ },
+ "storytold/vectorcraft": {
+  "category": "设计/UI",
+  "summary": "纯 Rust 从零写的矢量绘图工具，可编辑和导出 SVG。",
+  "usage": "克隆后 cargo run 启动"
+ },
+ "storytold/wordcraft": {
+  "category": "桌面应用",
+  "summary": "用纯 Rust 重新实现的 Word 兼容文档编辑器。",
+  "usage": "克隆后 cargo run 启动"
+ },
+ "supabase/supabase": {
+  "category": "后端/服务端",
+  "summary": "基于 Postgres 的后端平台，一次给你数据库、鉴权、文件存储和实时订阅。",
+  "usage": "云端建项目，或 Docker 自建"
+ },
+ "tailwindlabs/tailwindcss": {
+  "category": "前端开发",
+  "summary": "原子化 CSS 框架，用类名直接拼样式，不用再维护独立样式文件。",
+  "usage": "npm 安装后在模板里写类名"
+ },
+ "tangency-labs/solidcraft": {
+  "category": "设计/UI",
+  "summary": "纯 Rust 写的参数化 3D CAD 应用，桌面、网页和脚本调用都能用。",
+  "usage": "克隆后 cargo run 或打开网页版"
+ },
+ "tauri-apps/tauri": {
+  "category": "桌面应用",
+  "summary": "前端写界面、Rust 做后端的桌面应用框架，安装包比 Electron 小得多。",
+  "usage": "npm create tauri-app 起步"
+ },
+ "tensorflow/tensorflow": {
+  "category": "AI/机器学习",
+  "summary": "谷歌的深度学习框架，覆盖训练到部署全链路，生态和工具链最完整。",
+  "usage": "pip 安装后用 Keras 接口起步"
+ },
+ "thedotmack/claude-mem": {
+  "category": "AI/机器学习",
+  "summary": "给 AI 智能体加持久记忆，把每次会话过程压缩留存供下次调用。",
+  "usage": "按文档接入现有 agent"
+ },
+ "torvalds/linux": {
+  "category": "其他",
+  "summary": "Linux 内核源码树，操作系统最核心的调度、内存和驱动代码都在这里。",
+  "usage": "克隆后按文档编译内核"
+ },
+ "twbs/bootstrap": {
+  "category": "前端开发",
+  "summary": "经典响应式前端框架，栅格系统和组件库开箱即用，适合快速搭页面。",
+  "usage": "引入 CDN 链接后套用类名"
+ },
+ "ultraworkers/claw-code": {
+  "category": "AI/机器学习",
+  "summary": "由智能体全程开发维护的 Rust 项目，用来验证全自动编码能做到什么程度。",
+  "usage": "克隆后按 README 编译运行"
+ },
+ "vercel/next.js": {
+  "category": "前端开发",
+  "summary": "React 全栈框架，内置路由、服务端渲染和打包，适合做对搜索友好的站点。",
+  "usage": "npx create-next-app 建项目"
+ },
+ "vinta/awesome-python": {
+  "category": "学习资源",
+  "summary": "Python 生态工具大全，按用途分类，想知道某个需求该用什么库就查它。",
+  "usage": "按目录定位用途分类直接查"
+ },
+ "wheresryan22/anatomy": {
+  "category": "设计/UI",
+  "summary": "生成等距视角机械结构示意图的智能体技能，用来画原理和结构说明图。",
+  "usage": "作为技能装进编码工具调用"
+ },
+ "x1xhlol/system-prompts-and-models-of-ai-tools": {
+  "category": "AI/机器学习",
+  "summary": "各家 AI 编程工具的系统提示词合集，可研究不同产品怎么调教模型。",
+  "usage": "直接浏览对应工具目录"
+ },
+ "yihui-dev/awesome-opus5-5-videos": {
+  "category": "学习资源",
+  "summary": "用 Claude 生成的爆款视频合集，附带原始提示词，可以照着复现。",
+  "usage": "挑视频看提示词再改着用"
+ },
+ "yt-dlp/yt-dlp": {
+  "category": "命令行工具",
+  "summary": "功能最全的命令行音视频下载器，支持上千站点、字幕和分段下载。",
+  "usage": "pip 安装后执行 yt-dlp 加链接"
+ }
+}

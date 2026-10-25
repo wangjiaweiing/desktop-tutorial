@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GitHub 趋势雷达</title>
+<style>
+  :root {
+    --bg: #f6f7f9;
+    --card: #ffffff;
+    --line: #e5e7eb;
+    --line-soft: #f0f1f3;
+    --ink: #111827;
+    --ink-2: #4b5563;
+    --ink-3: #9ca3af;
+    --accent: #2563eb;
+    --radius: 12px;
+  }
+  * { box-sizing: border-box; }
+  [hidden] { display: none !important; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+                 "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; text-decoration: none; }
+
+  .wrap { max-width: 1000px; margin: 0 auto; padding: 0 20px 64px; }
+
+  /* ---------- header ---------- */
+  header { padding: 40px 0 24px; }
+  .brand { display: flex; align-items: center; gap: 10px; }
+  .logo {
+    width: 30px; height: 30px; border-radius: 8px;
+    background: #111827; color: #fff;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 15px; font-weight: 500;
+  }
+  h1 { font-size: 19px; font-weight: 500; margin: 0; letter-spacing: -0.01em; }
+  .sub { color: var(--ink-2); font-size: 13px; margin: 8px 0 0; }
+  .stats {
+    display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px;
+  }
+  .stat {
+    background: var(--card); border: 1px solid var(--line);
+    border-radius: 8px; padding: 7px 12px;
+    font-size: 12px; color: var(--ink-2);
+  }
+  .stat b { color: var(--ink); font-weight: 500; font-variant-numeric: tabular-nums; }
+
+  /* ---------- tabs ---------- */
+  .tabs {
+    display: flex; gap: 4px; background: #eceef1;
+    padding: 4px; border-radius: 10px; margin: 22px 0 18px;
+    width: fit-content;
+  }
+  .tab {
+    border: 0; background: transparent; cursor: pointer;
+    font: inherit; font-size: 13px; color: var(--ink-2);
+    padding: 7px 16px; border-radius: 7px; transition: .15s;
+    white-space: nowrap;
+  }
+  .tab:hover { color: var(--ink); }
+  .tab.on { background: var(--card); color: var(--ink); box-shadow: 0 1px 2px rgba(16,24,40,.08); }
+
+  /* ---------- toolbar ---------- */
+  .toolbar {
+    display: flex; flex-wrap: wrap; gap: 10px; align-items: center;
+    margin-bottom: 14px;
+  }
+  .seg { display: flex; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; background: var(--card); }
+  .seg button {
+    border: 0; background: transparent; font: inherit; font-size: 12.5px;
+    color: var(--ink-2); padding: 7px 13px; cursor: pointer; transition: .15s;
+  }
+  .seg button + button { border-left: 1px solid var(--line); }
+  .seg button.on { background: #eef2ff; color: var(--accent); }
+  .search {
+    flex: 1; min-width: 180px; position: relative;
+  }
+  .search input {
+    width: 100%; border: 1px solid var(--line); background: var(--card);
+    border-radius: 8px; padding: 7px 12px 7px 32px; font: inherit; font-size: 13px;
+    color: var(--ink); outline: none; transition: .15s;
+  }
+  .search input:focus { border-color: #bfdbfe; box-shadow: 0 0 0 3px #dbeafe; }
+  .search svg { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); }
+
+  /* ---------- chips ---------- */
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 18px; }
+  .chip {
+    border: 1px solid var(--line); background: var(--card); border-radius: 999px;
+    padding: 4px 11px; font-size: 12px; color: var(--ink-2);
+    cursor: pointer; transition: .15s; white-space: nowrap;
+  }
+  .chip:hover { border-color: #d1d5db; color: var(--ink); }
+  .chip.on { background: #111827; border-color: #111827; color: #fff; }
+  .chip .n { opacity: .55; margin-left: 4px; font-variant-numeric: tabular-nums; }
+
+  /* ---------- card ---------- */
+  .group-title {
+    display: flex; align-items: center; gap: 8px;
+    margin: 26px 0 10px; font-size: 13px; font-weight: 500; color: var(--ink);
+  }
+  .group-title .dot { width: 7px; height: 7px; border-radius: 50%; }
+  .group-title .cnt { color: var(--ink-3); font-weight: 400; font-size: 12px; }
+
+  .card {
+    background: var(--card); border: 1px solid var(--line);
+    border-radius: var(--radius); padding: 16px 18px;
+    margin-bottom: 10px; display: flex; gap: 14px;
+    transition: border-color .15s, box-shadow .15s;
+  }
+  .card:hover { border-color: #d8dce2; box-shadow: 0 2px 10px rgba(16,24,40,.05); }
+  .rank {
+    flex: 0 0 26px; font-size: 13px; color: var(--ink-3);
+    font-variant-numeric: tabular-nums; padding-top: 1px; text-align: right;
+  }
+  .rank.top { color: #b45309; font-weight: 500; }
+  .card-main { flex: 1; min-width: 0; }
+  .card-top { display: flex; flex-wrap: wrap; align-items: center; gap: 7px; }
+  .name {
+    font-size: 14.5px; font-weight: 500; letter-spacing: -0.01em;
+    overflow-wrap: anywhere;
+  }
+  .name:hover { color: var(--accent); }
+  .tag {
+    font-size: 11px; line-height: 1.5; padding: 1px 7px; border-radius: 5px;
+    white-space: nowrap; font-weight: 400;
+  }
+  .lic { font-size: 11px; line-height: 1.5; padding: 1px 7px; border-radius: 5px; white-space: nowrap; }
+  .lic.ok { background: #e7f7ed; color: #15803d; }
+  .lic.warn { background: #fef4e2; color: #b45309; }
+  .lic.no { background: #fdeaea; color: #b91c1c; }
+  .lic.q { background: #f1f2f4; color: #6b7280; }
+
+  .summary { margin: 7px 0 0; color: var(--ink-2); font-size: 13px; overflow-wrap: anywhere; }
+  .usage {
+    margin: 6px 0 0; font-size: 12.5px; color: var(--ink-2);
+    display: flex; gap: 6px; align-items: baseline;
+  }
+  .usage .k {
+    flex: 0 0 auto; font-size: 11px; color: var(--ink-3);
+    border: 1px solid var(--line); border-radius: 4px; padding: 0 5px; line-height: 1.6;
+  }
+  .meta {
+    margin-top: 9px; display: flex; flex-wrap: wrap; gap: 14px;
+    font-size: 12px; color: var(--ink-3); font-variant-numeric: tabular-nums;
+  }
+  .meta .star { color: #b45309; }
+  .meta .up { color: #15803d; }
+  .meta .flat { color: var(--ink-3); }
+
+  /* ---------- delta bar ---------- */
+  .bar-wrap { margin-top: 10px; display: flex; align-items: center; gap: 10px; }
+  .bar { flex: 1; height: 5px; background: var(--line-soft); border-radius: 3px; overflow: hidden; }
+  .bar > i { display: block; height: 100%; background: #34d399; border-radius: 3px; }
+  .bar-val { font-size: 12px; color: #15803d; font-weight: 500; font-variant-numeric: tabular-nums; }
+
+  .more {
+    display: block; width: 100%; margin: 2px 0 10px; padding: 8px;
+    border: 1px dashed var(--line); background: transparent; border-radius: 8px;
+    font: inherit; font-size: 12px; color: var(--ink-3); cursor: pointer;
+  }
+  .more:hover { color: var(--ink-2); border-color: #d1d5db; }
+
+  .empty { text-align: center; color: var(--ink-3); padding: 60px 0; font-size: 13px; }
+  .note {
+    margin: 0 0 12px; font-size: 12px; color: var(--ink-3);
+    font-variant-numeric: tabular-nums;
+  }
+  .err { background: #fdeaea; color: #b91c1c; padding: 14px 16px; border-radius: 8px; font-size: 13px; }
+
+  footer {
+    margin-top: 44px; padding-top: 18px; border-top: 1px solid var(--line);
+    color: var(--ink-3); font-size: 12px; line-height: 1.7;
+  }
+  footer b { color: var(--ink-2); font-weight: 500; }
+  .sr-only {
+    position: absolute; width: 1px; height: 1px; overflow: hidden;
+    clip: rect(0 0 0 0); white-space: nowrap;
+  }
+  @media (max-width: 640px) {
+    .rank { display: none; }
+    .card { padding: 14px; }
+    .wrap { padding: 0 14px 48px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">
+      <div class="logo">★</div>
+      <h1>GitHub 趋势雷达</h1>
+    </div>
+    <p class="sub">每日扫描活跃仓库，按总热度与近 7 天增速两个维度看开源动向。</p>
+    <div class="stats" id="stats"></div>
+  </header>
+
+  <div class="tabs" role="tablist">
+    <button class="tab on" data-tab="list" role="tab">项目列表</button>
+    <button class="tab" data-tab="trend" role="tab">近 7 天增速榜</button>
+  </div>
+
+  <div class="toolbar">
+    <div class="seg" id="seg">
+      <button data-sort="stars" class="on">按总 Star</button>
+      <button data-sort="group">按领域分组</button>
+    </div>
+    <div class="search">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#9ca3af" stroke-width="2">
+        <circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/>
+      </svg>
+      <input id="q" type="search" placeholder="搜索仓库名或功能关键词…" autocomplete="off">
+    </div>
+  </div>
+
+  <div class="chips" id="chips"></div>
+
+  <main>
+    <div id="view-list"></div>
+    <div id="view-trend" hidden></div>
+  </main>
+
+  <footer>
+    <p><b>免责声明</b>：许可证信息来自 GitHub API 的自动识别结果，仅供参考。部分仓库存在多许可证、附加条款或自定义协议，商用前请务必自行核实仓库 LICENSE 文件全文及依赖链上的许可证义务。</p>
+    <p>数据来源 GitHub REST API · 领域标签与功能说明由大模型生成，可能存在偏差。</p>
+  </footer>
+</div>
+
+<script src="data/repos.js"></script>
+<script>
+const CAT_COLORS = {
+  "AI/机器学习": "#7c3aed", "前端开发": "#2563eb", "后端/服务端": "#0891b2",
+  "数据库": "#0d9488", "DevOps/运维": "#ea580c", "命令行工具": "#4b5563",
+  "移动开发": "#db2777", "桌面应用": "#9333ea", "浏览器扩展": "#ca8a04",
+  "安全": "#dc2626", "数据分析": "#059669", "爬虫/自动化": "#65a30d",
+  "文档/笔记": "#57534e", "设计/UI": "#e11d48", "区块链": "#b45309",
+  "游戏开发": "#9a3412", "学习资源": "#1d4ed8", "其他": "#9ca3af"
+};
+const CAT_ORDER = Object.keys(CAT_COLORS);
+
+let DATA = window.GH_TREND_DATA || null;
+const state = { tab: "list", sort: "stars", cat: "全部", q: "", expanded: new Set() };
+
+const $ = (s, r = document) => r.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c =>
+  ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const num = n => Number(n || 0).toLocaleString("en-US");
+
+function licClass(label) {
+  if (!label) return "q";
+  if (label.startsWith("✅")) return "ok";
+  if (label.startsWith("⚠️")) return "warn";
+  if (label.startsWith("❌")) return "no";
+  return "q";
+}
+
+function card(r, rank, showBar, maxDelta) {
+  const color = CAT_COLORS[r.category] || "#9ca3af";
+  const delta = r.stars_7d;
+  const hasDelta = typeof delta === "number";
+  const deltaTxt = !hasDelta
+    ? `<span class="flat">近 7 天无数据</span>`
+    : `<span class="up">近 7 天 +${num(delta)}</span>`;
+  const bar = showBar && hasDelta
+    ? `<div class="bar-wrap">
+         <div class="bar"><i style="width:${Math.max(3, Math.round(delta / maxDelta * 100))}%"></i></div>
+         <span class="bar-val">+${num(delta)}</span>
+       </div>` : "";
+  // 有进度条时不再重复显示增量数字
+  const metaDelta = showBar && hasDelta ? "" : deltaTxt;
+
+  return `
+  <article class="card">
+    <div class="rank${rank <= 3 ? " top" : ""}">${rank}</div>
+    <div class="card-main">
+      <div class="card-top">
+        <a class="name" href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.full_name)}</a>
+        <span class="tag" style="color:${color};background:${color}14">${esc(r.category)}</span>
+        <span class="lic ${licClass(r.license_label)}">${esc(r.license_label)}</span>
+      </div>
+      <p class="summary">${esc(r.summary)}</p>
+      <p class="usage"><span class="k">怎么用</span><span>${esc(r.usage)}</span></p>
+      <div class="meta">
+        <span class="star">★ ${num(r.stars)}</span>
+        ${metaDelta}
+        ${r.language ? `<span>${esc(r.language)}</span>` : ""}
+        ${r.license_key ? `<span>${esc(r.license_key)}</span>` : ""}
+      </div>
+      ${bar}
+    </div>
+  </article>`;
+}
+
+function filtered() {
+  const q = state.q.trim().toLowerCase();
+  return (DATA.repos || []).filter(r => {
+    if (state.cat !== "全部" && r.category !== state.cat) return false;
+    if (!q) return true;
+    return (r.full_name + " " + (r.summary || "") + " " + (r.description || "") + " " + (r.category || ""))
+      .toLowerCase().includes(q);
+  });
+}
+
+function renderStats() {
+  const s = DATA.stats || {};
+  const when = DATA.generated_at ? new Date(DATA.generated_at) : null;
+  const fmt = when ? when.toLocaleString("zh-CN", { hour12: false }).replace(/\//g, "-") : "—";
+  $("#stats").innerHTML = `
+    <div class="stat">收录 <b>${num((DATA.repos || []).length)}</b> 个项目</div>
+    <div class="stat">本次扫描 <b>${num(s.scanned || 0)}</b> 个</div>
+    <div class="stat">新增 <b>${num(s.new_this_run || 0)}</b> 个</div>
+    <div class="stat">Star 数据截止 <b>${esc(DATA.data_asof || "—")}</b></div>
+    <div class="stat">更新于 <b>${esc(fmt)}</b></div>`;
+}
+
+function baseRows() {
+  const all = DATA.repos || [];
+  if (state.tab !== "trend") return all;
+  const asof = DATA.data_asof;
+  return all.filter(r => typeof r.stars_7d === "number" && (!asof || r.stars_7d_asof === asof));
+}
+
+function renderChips() {
+  const all = baseRows();
+  const counts = {};
+  all.forEach(r => counts[r.category] = (counts[r.category] || 0) + 1);
+  const cats = ["全部", ...CAT_ORDER.filter(c => counts[c])];
+  $("#chips").innerHTML = cats.map(c => {
+    const n = c === "全部" ? all.length : counts[c];
+    return `<button class="chip${state.cat === c ? " on" : ""}" data-cat="${esc(c)}">
+      ${esc(c)}<span class="n">${n}</span></button>`;
+  }).join("");
+  $("#chips").querySelectorAll(".chip").forEach(el => {
+    el.onclick = () => { state.cat = el.dataset.cat; render(); };
+  });
+}
+
+function renderList() {
+  const rows = filtered();
+  const host = $("#view-list");
+  if (!rows.length) { host.innerHTML = `<div class="empty">没有匹配的项目</div>`; return; }
+
+  if (state.sort === "stars") {
+    rows.sort((a, b) => (b.stars || 0) - (a.stars || 0));
+    host.innerHTML = rows.map((r, i) => card(r, i + 1, false)).join("");
+    return;
+  }
+
+  // 按领域分组
+  const groups = {};
+  rows.forEach(r => (groups[r.category] = groups[r.category] || []).push(r));
+  const order = CAT_ORDER.filter(c => groups[c])
+    .sort((a, b) => groups[b].length - groups[a].length);
+
+  host.innerHTML = order.map(cat => {
+    const list = groups[cat].sort((a, b) => (b.stars || 0) - (a.stars || 0));
+    const open = state.expanded.has(cat);
+    const shown = open ? list : list.slice(0, 5);
+    const color = CAT_COLORS[cat] || "#9ca3af";
+    const more = list.length > 5
+      ? `<button class="more" data-more="${esc(cat)}">${open ? "收起" : `展开全部 ${list.length} 个`}</button>`
+      : "";
+    return `<div class="group-title">
+        <span class="dot" style="background:${color}"></span>${esc(cat)}
+        <span class="cnt">${list.length} 个</span>
+      </div>
+      ${shown.map((r, i) => card(r, i + 1, false)).join("")}
+      ${more}`;
+  }).join("");
+
+  host.querySelectorAll("[data-more]").forEach(btn => {
+    btn.onclick = () => {
+      const c = btn.dataset.more;
+      state.expanded.has(c) ? state.expanded.delete(c) : state.expanded.add(c);
+      render();
+    };
+  });
+}
+
+function renderTrend() {
+  // 只统计本轮真正刷新过的增量，避免已掉出候选池的旧数据混进榜单
+  const asof = DATA.data_asof;
+  const rows = filtered()
+    .filter(r => typeof r.stars_7d === "number" && (!asof || r.stars_7d_asof === asof))
+    .sort((a, b) => b.stars_7d - a.stars_7d)
+    .slice(0, 100);
+  const host = $("#view-trend");
+  if (!rows.length) { host.innerHTML = `<div class="empty">还没有增量数据</div>`; return; }
+  const max = Math.max(1, rows[0].stars_7d);
+  const note = `<p class="note">按近 7 天 Star 增量降序 · 共 ${rows.length} 个仓库有增量数据 · 基准日 ${esc(asof || "—")}</p>`;
+  host.innerHTML = note + rows.map((r, i) => card(r, i + 1, true, max)).join("");
+}
+
+function render() {
+  $("#seg").hidden = state.tab !== "list";
+  $("#view-list").hidden = state.tab !== "list";
+  $("#view-trend").hidden = state.tab !== "trend";
+  renderChips();
+  state.tab === "list" ? renderList() : renderTrend();
+}
+
+function boot() {
+  // 支持 ?tab=trend&sort=group 深链接
+  const params = new URLSearchParams(location.search);
+  if (params.get("tab") === "trend") state.tab = "trend";
+  if (params.get("sort") === "group") state.sort = "group";
+
+  document.querySelectorAll(".tab").forEach(btn => {
+    btn.classList.toggle("on", btn.dataset.tab === state.tab);
+    btn.onclick = () => {
+      document.querySelectorAll(".tab").forEach(b => b.classList.toggle("on", b === btn));
+      state.tab = btn.dataset.tab;
+      render();
+    };
+  });
+  $("#seg").querySelectorAll("button").forEach(btn => {
+    btn.classList.toggle("on", btn.dataset.sort === state.sort);
+    btn.onclick = () => {
+      $("#seg").querySelectorAll("button").forEach(b => b.classList.toggle("on", b === btn));
+      state.sort = btn.dataset.sort;
+      render();
+    };
+  });
+  let timer;
+  $("#q").addEventListener("input", e => {
+    clearTimeout(timer);
+    timer = setTimeout(() => { state.q = e.target.value; render(); }, 120);
+  });
+
+  if (!DATA) {
+    fetch("data/repos.json", { cache: "no-store" })
+      .then(r => r.json())
+      .then(d => { DATA = d; renderStats(); render(); })
+      .catch(() => {
+        $("#stats").innerHTML =
+          `<div class="err">读不到数据文件。请先运行 <code>python scripts/collect.py</code> 生成 data/repos.json。</div>`;
+      });
+    return;
+  }
+  renderStats();
+  render();
+}
+
+boot();
+</script>
+</body>
+</html>

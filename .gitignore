@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.env
+*.tmp
+data/_cache.json
+data/_pending.json
+_screenshot*.png
