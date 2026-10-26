@@ -107,6 +107,10 @@
   "first_seen": "2026-10-25",
   "category": "设计/UI"
  },
+ "Zagitta/gpu-unlock": {
+  "first_seen": "2026-10-26",
+  "category": "其他"
+ },
  "addyosmani/agent-skills": {
   "first_seen": "2026-10-25",
   "category": "AI/机器学习"
@@ -426,6 +430,10 @@
  "papers-we-love/papers-we-love": {
   "first_seen": "2026-10-25",
   "category": "学习资源"
+ },
+ "pengchujin/aerial-tv": {
+  "first_seen": "2026-10-26",
+  "category": "移动开发"
  },
  "practical-tutorials/project-based-learning": {
   "first_seen": "2026-10-25",

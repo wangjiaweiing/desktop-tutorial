@@ -139,6 +139,12 @@
   "summary": "把各大品牌设计系统拆解成 DESIGN.md 文档，丢给 AI 就能照着做界面。",
   "usage": "挑一份放进项目根目录给 AI 读"
  },
+ "Zagitta/gpu-unlock": {
+  "category": "其他",
+  "summary": "Linux 内核模块，把 RTX 30 系的 FP/BF16 指令发射速率解锁到专业卡水平，矩阵乘算力接近翻倍。",
+  "usage": "编译内核模块后开机自动加载，重启生效",
+  "by": "agent"
+ },
  "addyosmani/agent-skills": {
   "category": "AI/机器学习",
   "summary": "面向 AI 编码智能体的工程技能库，把成熟开发规范固化成可复用技能。",
@@ -542,6 +548,12 @@
   "category": "学习资源",
   "summary": "计算机科学经典论文合集，按主题整理，适合系统地补底层知识。",
   "usage": "按主题挑论文下载阅读"
+ },
+ "pengchujin/aerial-tv": {
+  "category": "移动开发",
+  "summary": "给小米、TCL 等国产电视用的 tvOS 风格安卓桌面，无广告无推荐流，开机自动接管。",
+  "usage": "电视打开 ADB 调试后命令行安装，设为默认桌面",
+  "by": "agent"
  },
  "practical-tutorials/project-based-learning": {
   "category": "学习资源",
