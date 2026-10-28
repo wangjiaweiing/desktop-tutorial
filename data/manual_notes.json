@@ -66,6 +66,12 @@
   "summary": "把代码库连同文档、SQL 结构和配置文件转成可查询的知识图谱。",
   "usage": "装好后在项目里调用它的命令"
  },
+ "Hack-with-Github/Awesome-Hacking": {
+  "category": "安全",
+  "summary": "汇总渗透测试、漏洞赏金、CTF、移动安全等方向的资源清单，安全研究人员按图索骥的入口。",
+  "usage": "浏览 README 按方向选清单查阅",
+  "by": "agent"
+ },
  "Jakeschincariol/replica-skill": {
   "category": "AI/机器学习",
   "summary": "十一个拆解并复刻任意 App 的 Claude 技能，涵盖逆向、重建和找 Bug。",
@@ -351,6 +357,12 @@
   "summary": "macOS 优质软件清单，按用途分类并标注是否免费，装机时按图索骥。",
   "usage": "按分类挑软件点进官网下载"
  },
+ "jhaizhou-ops/d2r-mobile": {
+  "category": "游戏开发",
+  "summary": "让《暗黑破坏神 II：狱火重生》Switch 版在 iPhone、iPad、Mac、安卓、鸿蒙上原生运行的兼容层，支持触屏 60 帧。",
+  "usage": "自备游戏文件，按平台下载安装",
+  "by": "agent"
+ },
  "krahets/hello-algo": {
   "category": "学习资源",
   "summary": "带动画图解的数据结构与算法教程，多语言代码可一键运行。",
@@ -625,6 +637,12 @@
   "summary": "把普通 WiFi 信号变成空间感知能力，做人体存在检测和呼吸心率监测。",
   "usage": "刷 ESP32 固件后接 Home Assistant"
  },
+ "seedds/nxnative": {
+  "category": "游戏开发",
+  "summary": "把 Switch 游戏的 NSP 重写成未签名 IPA，在 iPhone、iPad 和 Mac 上原生运行，非模拟器方案。",
+  "usage": "自备游戏文件和密钥，脚本生成 IPA 侧载",
+  "by": "agent"
+ },
  "shadcn-ui/ui": {
   "category": "前端开发",
   "summary": "可复制粘贴的 React 组件集合，代码归你所有，样式随便改。",
@@ -634,6 +652,12 @@
   "category": "前端开发",
   "summary": "把 WebGPU 特效封装成组件，React、Vue、Svelte、Solid 里都能直接引用。",
   "usage": "npm 装好后按组件引入",
+  "by": "agent"
+ },
+ "simbasjungles/free-my-tv": {
+  "category": "移动开发",
+  "summary": "给 Google TV、LG、三星电视换的无广告第三方桌面，应用自排，附热门推荐和天气。",
+  "usage": "按机型安装 APK 后设为桌面",
   "by": "agent"
  },
  "stablyai/orca": {
