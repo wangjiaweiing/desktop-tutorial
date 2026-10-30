@@ -39,6 +39,10 @@
   "first_seen": "2026-10-25",
   "category": "学习资源"
  },
+ "Fei2411/DS-Bot": {
+  "first_seen": "2026-10-30",
+  "category": "AI/机器学习"
+ },
  "Gathin23/cleanyourtv": {
   "first_seen": "2026-10-25",
   "category": "桌面应用"
@@ -55,6 +59,10 @@
   "first_seen": "2026-10-28",
   "category": "安全"
  },
+ "HeyPuter/everything": {
+  "first_seen": "2026-10-30",
+  "category": "其他"
+ },
  "Jakeschincariol/replica-skill": {
   "first_seen": "2026-10-25",
   "category": "AI/机器学习"
@@ -62,6 +70,10 @@
  "JuliusBrussee/caveman": {
   "first_seen": "2026-10-25",
   "category": "AI/机器学习"
+ },
+ "JustAResearcher/gpu-unlock-ada": {
+  "first_seen": "2026-10-30",
+  "category": "其他"
  },
  "KKKKhazix/AIHOT": {
   "first_seen": "2026-10-25",
@@ -87,6 +99,10 @@
   "first_seen": "2026-10-25",
   "category": "爬虫/自动化"
  },
+ "QingYunA/answer-me-with-html": {
+  "first_seen": "2026-10-30",
+  "category": "AI/机器学习"
+ },
  "Shubhamsaboo/awesome-llm-apps": {
   "first_seen": "2026-10-25",
   "category": "学习资源"
@@ -98,6 +114,10 @@
  "Snailclimb/JavaGuide": {
   "first_seen": "2026-10-25",
   "category": "学习资源"
+ },
+ "T-Auto/dsh-ops": {
+  "first_seen": "2026-10-30",
+  "category": "AI/机器学习"
  },
  "TauricResearch/TradingAgents": {
   "first_seen": "2026-10-25",
@@ -311,6 +331,10 @@
   "first_seen": "2026-10-25",
   "category": "AI/机器学习"
  },
+ "localsend/localsend": {
+  "first_seen": "2026-10-30",
+  "category": "桌面应用"
+ },
  "ly05010419/MacNativeGames": {
   "first_seen": "2026-10-25",
   "category": "游戏开发"
@@ -467,6 +491,10 @@
   "first_seen": "2026-10-25",
   "category": "学习资源"
  },
+ "rddmwmddr/android-ad-cleaner": {
+  "first_seen": "2026-10-30",
+  "category": "爬虫/自动化"
+ },
  "react/react": {
   "first_seen": "2026-10-25",
   "category": "前端开发"
@@ -522,6 +550,10 @@
  "storytold/cadcraft": {
   "first_seen": "2026-10-25",
   "category": "设计/UI"
+ },
+ "storytold/deckcraft": {
+  "first_seen": "2026-10-30",
+  "category": "桌面应用"
  },
  "storytold/designcraft": {
   "first_seen": "2026-10-25",
@@ -595,6 +627,10 @@
   "first_seen": "2026-10-25",
   "category": "AI/机器学习"
  },
+ "unclebob/ub-mode": {
+  "first_seen": "2026-10-30",
+  "category": "AI/机器学习"
+ },
  "vercel/next.js": {
   "first_seen": "2026-10-25",
   "category": "前端开发"
@@ -610,6 +646,10 @@
  "x1xhlol/system-prompts-and-models-of-ai-tools": {
   "first_seen": "2026-10-25",
   "category": "AI/机器学习"
+ },
+ "xiaoyang111222/cn-math-taxonomy": {
+  "first_seen": "2026-10-30",
+  "category": "学习资源"
  },
  "yihui-dev/awesome-opus5-5-videos": {
   "first_seen": "2026-10-25",

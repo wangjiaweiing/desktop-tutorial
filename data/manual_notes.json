@@ -10,10 +10,10 @@
   "usage": "关注月刊，按兴趣点进项目"
  },
  "ARahim3/DigUp": {
+  "by": "agent",
   "category": "桌面应用",
   "summary": "按文件内容搜本机资料的离线搜索工具，图片、PDF、录音和代码都能搜到。",
-  "usage": "下载安装包，建好索引后直接搜",
-  "by": "agent"
+  "usage": "下载安装包，建好索引后直接搜"
  },
  "Anduin2017/HowToCook": {
   "category": "学习资源",
@@ -31,10 +31,10 @@
   "usage": "解压即用或 Docker 部署后开网页"
  },
  "CopilotKit/OpenDots": {
+  "by": "agent",
   "category": "AI/机器学习",
   "summary": "常驻式 AI 同事的开源模板，能在文字对话、电话和 Slack 之间接力干活。",
-  "usage": "克隆后接上模型按文档启动",
-  "by": "agent"
+  "usage": "克隆后接上模型按文档启动"
  },
  "CyC2018/CS-Notes": {
   "category": "学习资源",
@@ -50,6 +50,12 @@
   "category": "学习资源",
   "summary": "按语言和主题整理的免费编程书籍清单，全部可合法免费阅读。",
   "usage": "浏览清单挑书，点链接直接读"
+ },
+ "Fei2411/DS-Bot": {
+  "by": "agent",
+  "category": "AI/机器学习",
+  "summary": "把 DeepSeek Harness 改造成多机器人环境，支持机器人互发消息和群聊。",
+  "usage": "下桌面安装包，建好机器人直接对话"
  },
  "Gathin23/cleanyourtv": {
   "category": "桌面应用",
@@ -67,27 +73,39 @@
   "usage": "装好后在项目里调用它的命令"
  },
  "Hack-with-Github/Awesome-Hacking": {
+  "by": "agent",
   "category": "安全",
   "summary": "汇总渗透测试、漏洞赏金、CTF、移动安全等方向的资源清单，安全研究人员按图索骥的入口。",
-  "usage": "浏览 README 按方向选清单查阅",
-  "by": "agent"
+  "usage": "浏览 README 按方向选清单查阅"
+ },
+ "HeyPuter/everything": {
+  "by": "agent",
+  "category": "其他",
+  "summary": "用开源重造 Office、Photoshop 等商业软件，单仓库按应用分目录提供网页版替代品。",
+  "usage": "克隆后进 src 应用目录，npm 安装运行"
  },
  "Jakeschincariol/replica-skill": {
+  "by": "agent",
   "category": "AI/机器学习",
   "summary": "十一个拆解并复刻任意 App 的 Claude 技能，涵盖逆向、重建和找 Bug。",
-  "usage": "装进 Claude 后用技能名触发",
-  "by": "agent"
+  "usage": "装进 Claude 后用技能名触发"
  },
  "JuliusBrussee/caveman": {
   "category": "AI/机器学习",
   "summary": "靠精简表达压缩提示词的技能与代理，能砍掉大半 token 消耗。",
   "usage": "作为技能或代理接入编码工具"
  },
+ "JustAResearcher/gpu-unlock-ada": {
+  "by": "agent",
+  "category": "其他",
+  "summary": "Linux 内核模块，在官方驱动加载前解锁 RTX 4090 的张量算力限制。",
+  "usage": "按 Quick Start 编译模块并加载"
+ },
  "KKKKhazix/AIHOT": {
+  "by": "agent",
   "category": "AI/机器学习",
   "summary": "用大模型自动筛信源、聚事件、写日报的热点站框架，换个信源就成你的行业站。",
-  "usage": "改好信源配置后用 Docker 一键起服务",
-  "by": "agent"
+  "usage": "改好信源配置后用 Docker 一键起服务"
  },
  "KnifeLemon/Filee": {
   "category": "桌面应用",
@@ -100,10 +118,10 @@
   "usage": "作为技能装进编码工具"
  },
  "Louis-CFM/coucou": {
+  "by": "agent",
   "category": "桌面应用",
   "summary": "住在 Mac 刘海里的 AI 小助手，替你盯着 Claude、Codex 等智能体并批准操作。",
-  "usage": "下载 dmg 安装后授予辅助权限",
-  "by": "agent"
+  "usage": "下载 dmg 安装后授予辅助权限"
  },
  "NousResearch/hermes-agent": {
   "category": "AI/机器学习",
@@ -114,6 +132,12 @@
   "category": "爬虫/自动化",
   "summary": "让 AI 智能体能读取和搜索推特、Reddit、B 站等平台内容的工具层。",
   "usage": "配置账号凭证后接进 agent"
+ },
+ "QingYunA/answer-me-with-html": {
+  "by": "agent",
+  "category": "AI/机器学习",
+  "summary": "让 AI Agent 把复杂问题答成一页可读的 HTML，而不是一大段终端文字。",
+  "usage": "作为 Agent skill 装好后照常提问"
  },
  "Shubhamsaboo/awesome-llm-apps": {
   "category": "学习资源",
@@ -129,6 +153,12 @@
   "category": "学习资源",
   "summary": "Java 后端面试知识体系，涵盖基础、并发、数据库、分布式与系统设计。",
   "usage": "按目录在线阅读对应专题"
+ },
+ "T-Auto/dsh-ops": {
+  "by": "agent",
+  "category": "AI/机器学习",
+  "summary": "DeepSeek Harness 插件，用更精简的工具返回压住 Token 消耗和任务耗时。",
+  "usage": "装进 DSH 后选用对应模式行启用"
  },
  "TauricResearch/TradingAgents": {
   "category": "AI/机器学习",
@@ -146,10 +176,10 @@
   "usage": "挑一份放进项目根目录给 AI 读"
  },
  "Zagitta/gpu-unlock": {
+  "by": "agent",
   "category": "其他",
   "summary": "Linux 内核模块，把 RTX 30 系的 FP/BF16 指令发射速率解锁到专业卡水平，矩阵乘算力接近翻倍。",
-  "usage": "编译内核模块后开机自动加载，重启生效",
-  "by": "agent"
+  "usage": "编译内核模块后开机自动加载，重启生效"
  },
  "addyosmani/agent-skills": {
   "category": "AI/机器学习",
@@ -162,10 +192,10 @@
   "usage": "按文档接入现有 agent 工作流"
  },
  "alchaincyf/huashu-art-motion": {
+  "by": "agent",
   "category": "设计/UI",
   "summary": "让编程智能体把文字故事做成艺术动画的技能包，内含 36 种风格和 9 种解说语法。",
-  "usage": "npx skills add 后让智能体生成",
-  "by": "agent"
+  "usage": "npx skills add 后让智能体生成"
  },
  "angular/angular": {
   "category": "前端开发",
@@ -358,10 +388,10 @@
   "usage": "按分类挑软件点进官网下载"
  },
  "jhaizhou-ops/d2r-mobile": {
+  "by": "agent",
   "category": "游戏开发",
   "summary": "让《暗黑破坏神 II：狱火重生》Switch 版在 iPhone、iPad、Mac、安卓、鸿蒙上原生运行的兼容层，支持触屏 60 帧。",
-  "usage": "自备游戏文件，按平台下载安装",
-  "by": "agent"
+  "usage": "自备游戏文件，按平台下载安装"
  },
  "krahets/hello-algo": {
   "category": "学习资源",
@@ -394,16 +424,22 @@
   "usage": "Docker Compose 起服务后网页配置"
  },
  "lemomo-ai/lemo-opuscar": {
+  "by": "agent",
   "category": "AI/机器学习",
   "summary": "给编程智能体用的 59 种影片风格模板，把故事丢进去就能导出成片。",
-  "usage": "装进 Claude Code 后调用",
-  "by": "agent"
+  "usage": "装进 Claude Code 后调用"
+ },
+ "localsend/localsend": {
+  "by": "agent",
+  "category": "桌面应用",
+  "summary": "局域网内跨设备互传文件，不用联网和账号，AirDrop 的开源替代。",
+  "usage": "各平台装好应用，同一网络下自动发现"
  },
  "ly05010419/MacNativeGames": {
+  "by": "agent",
   "category": "游戏开发",
   "summary": "让《塞尔达传说：旷野之息》和《王国之泪》在 Mac 与 iPhone 上原生运行。",
-  "usage": "准备游戏文件后按文档编译运行",
-  "by": "agent"
+  "usage": "准备游戏文件后按文档编译运行"
  },
  "massgravel/Microsoft-Activation-Scripts": {
   "category": "其他",
@@ -521,10 +557,10 @@
   "usage": "装好后 ollama run 模型名"
  },
  "omlahore/RemoveMacAI": {
+  "by": "agent",
   "category": "桌面应用",
   "summary": "关掉 macOS 的 Apple Intelligence、遥测和广告弹窗，每项改动都能先预览再撤销。",
-  "usage": "下载 App 或命令行运行后勾选",
-  "by": "agent"
+  "usage": "下载 App 或命令行运行后勾选"
  },
  "open-webui/open-webui": {
   "category": "AI/机器学习",
@@ -562,10 +598,10 @@
   "usage": "按主题挑论文下载阅读"
  },
  "pengchujin/aerial-tv": {
+  "by": "agent",
   "category": "移动开发",
   "summary": "给小米、TCL 等国产电视用的 tvOS 风格安卓桌面，无广告无推荐流，开机自动接管。",
-  "usage": "电视打开 ADB 调试后命令行安装，设为默认桌面",
-  "by": "agent"
+  "usage": "电视打开 ADB 调试后命令行安装，设为默认桌面"
  },
  "practical-tutorials/project-based-learning": {
   "category": "学习资源",
@@ -596,6 +632,12 @@
   "category": "学习资源",
   "summary": "从零手写一个类 ChatGPT 大模型，逐章实现注意力机制、训练和微调。",
   "usage": "按章节跑 Jupyter notebook"
+ },
+ "rddmwmddr/android-ad-cleaner": {
+  "by": "agent",
+  "category": "爬虫/自动化",
+  "summary": "借 adb 关掉国产安卓系统里的广告、热搜和营销推送，不 root 且可还原。",
+  "usage": "连上手机跑桌面客户端，按提示逐项处理"
  },
  "react/react": {
   "category": "前端开发",
@@ -638,10 +680,10 @@
   "usage": "刷 ESP32 固件后接 Home Assistant"
  },
  "seedds/nxnative": {
+  "by": "agent",
   "category": "游戏开发",
   "summary": "把 Switch 游戏的 NSP 重写成未签名 IPA，在 iPhone、iPad 和 Mac 上原生运行，非模拟器方案。",
-  "usage": "自备游戏文件和密钥，脚本生成 IPA 侧载",
-  "by": "agent"
+  "usage": "自备游戏文件和密钥，脚本生成 IPA 侧载"
  },
  "shadcn-ui/ui": {
   "category": "前端开发",
@@ -649,16 +691,16 @@
   "usage": "用命令行把组件添加进项目"
  },
  "shader-effects-inc/shaders": {
+  "by": "agent",
   "category": "前端开发",
   "summary": "把 WebGPU 特效封装成组件，React、Vue、Svelte、Solid 里都能直接引用。",
-  "usage": "npm 装好后按组件引入",
-  "by": "agent"
+  "usage": "npm 装好后按组件引入"
  },
  "simbasjungles/free-my-tv": {
+  "by": "agent",
   "category": "移动开发",
   "summary": "给 Google TV、LG、三星电视换的无广告第三方桌面，应用自排，附热门推荐和天气。",
-  "usage": "按机型安装 APK 后设为桌面",
-  "by": "agent"
+  "usage": "按机型安装 APK 后设为桌面"
  },
  "stablyai/orca": {
   "category": "AI/机器学习",
@@ -666,22 +708,28 @@
   "usage": "下载客户端后接入各家模型"
  },
  "storytold/cadcraft": {
+  "by": "agent",
   "category": "设计/UI",
   "summary": "纯 Rust 写的 2D/3D CAD 制图工具，命令行、对象捕捉、图层和 DXF 都支持。",
-  "usage": "下载安装包或 cargo 编译后运行",
-  "by": "agent"
+  "usage": "下载安装包或 cargo 编译后运行"
+ },
+ "storytold/deckcraft": {
+  "by": "agent",
+  "category": "桌面应用",
+  "summary": "纯 Rust 实现的演示文稿工具，能编辑并读写 pptx，桌面与网页都能跑。",
+  "usage": "下载对应平台安装包或开网页版"
  },
  "storytold/designcraft": {
+  "by": "agent",
   "category": "设计/UI",
   "summary": "纯 Rust 写的桌面排版与页面设计工具，原生跑三大系统，也能在浏览器里用。",
-  "usage": "下载安装包或浏览器打开网页版",
-  "by": "agent"
+  "usage": "下载安装包或浏览器打开网页版"
  },
  "storytold/effectcraft": {
+  "by": "agent",
   "category": "设计/UI",
   "summary": "纯 Rust 写的动效合成与视觉特效软件，图层、关键帧、3D 相机都齐，对标 AE。",
-  "usage": "下载安装包或从源码编译运行",
-  "by": "agent"
+  "usage": "下载安装包或从源码编译运行"
  },
  "storytold/filmcraft": {
   "category": "桌面应用",
@@ -689,10 +737,10 @@
   "usage": "克隆后 cargo run 启动"
  },
  "storytold/gridcraft": {
+  "by": "agent",
   "category": "桌面应用",
   "summary": "纯 Rust 写的高性能电子表格，原生跑在三大系统，也能直接在浏览器里用。",
-  "usage": "下载安装包或浏览器打开网页版",
-  "by": "agent"
+  "usage": "下载安装包或浏览器打开网页版"
  },
  "storytold/lightcraft": {
   "category": "桌面应用",
@@ -764,6 +812,12 @@
   "summary": "由智能体全程开发维护的 Rust 项目，用来验证全自动编码能做到什么程度。",
   "usage": "克隆后按 README 编译运行"
  },
+ "unclebob/ub-mode": {
+  "by": "agent",
+  "category": "AI/机器学习",
+  "summary": "约束 AI 写码习惯的 Agent 技能，用测试和质量门禁逼着先跑通再重构。",
+  "usage": "作为 Agent skill 安装后正常写代码"
+ },
  "vercel/next.js": {
   "category": "前端开发",
   "summary": "React 全栈框架，内置路由、服务端渲染和打包，适合做对搜索友好的站点。",
@@ -784,6 +838,12 @@
   "summary": "各家 AI 编程工具的系统提示词合集，可研究不同产品怎么调教模型。",
   "usage": "直接浏览对应工具目录"
  },
+ "xiaoyang111222/cn-math-taxonomy": {
+  "by": "agent",
+  "category": "学习资源",
+  "summary": "中小学数学、英语、物理的知识点图谱，含先修关系与题库，可做前置诊断。",
+  "usage": "取仓库里的结构化数据接入自己的学习应用"
+ },
  "yihui-dev/awesome-opus5-5-videos": {
   "category": "学习资源",
   "summary": "用 Claude 生成的爆款视频合集，附带原始提示词，可以照着复现。",
@@ -795,9 +855,9 @@
   "usage": "pip 安装后执行 yt-dlp 加链接"
  },
  "zhongerxin/iPhone-use": {
+  "by": "agent",
   "category": "爬虫/自动化",
   "summary": "让 Codex 等智能体通过 USB 操作真机 iPhone，能点按、输入并实时看屏幕。",
-  "usage": "装好 WDA 后接入 MCP 服务",
-  "by": "agent"
+  "usage": "装好 WDA 后接入 MCP 服务"
  }
 }
