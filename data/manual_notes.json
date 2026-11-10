@@ -859,5 +859,167 @@
   "category": "爬虫/自动化",
   "summary": "让 Codex 等智能体通过 USB 操作真机 iPhone，能点按、输入并实时看屏幕。",
   "usage": "装好 WDA 后接入 MCP 服务"
+ },
+ "codecrafters-io/build-your-own-x": {
+  "category": "学习资源",
+  "summary": "收录上百篇从零实现数据库、Git、操作系统、神经网络等技术的分步教程，边造边学。",
+  "usage": "浏览 README 选取教程自学",
+  "by": "agent"
+ },
+ "jwasham/coding-interview-university": {
+  "category": "学习资源",
+  "summary": "一套完整的软件工程师求职自学计划，覆盖算法、数据结构与面试所需的计算机知识清单。",
+  "usage": "按 README 清单逐项自学",
+  "by": "agent"
+ },
+ "ossu/computer-science": {
+  "category": "学习资源",
+  "summary": "免费开源的计算机科学完整课程体系，用公开网课拼出接近本科水平的自学路径。",
+  "usage": "按课程表顺序在线学习",
+  "by": "agent"
+ },
+ "getify/You-Dont-Know-JS": {
+  "category": "学习资源",
+  "summary": "深挖 JavaScript 语言核心机制的开源书系列，讲透作用域、闭包、对象与异步等主题。",
+  "usage": "在线免费阅读或购买电子书",
+  "by": "agent"
+ },
+ "ytdl-org/youtube-dl": {
+  "category": "命令行工具",
+  "summary": "命令行视频下载工具，支持 YouTube 等数百个站点，可选格式、清晰度与输出模板。",
+  "usage": "pip 安装后用命令行下载视频",
+  "by": "agent"
+ },
+ "sherlock-project/sherlock": {
+  "category": "安全",
+  "summary": "按用户名在 400 多个社交网络中检索同名账号，用于信息收集与账号踪迹排查。",
+  "usage": "pip 安装后执行 sherlock 用户名",
+  "by": "agent"
+ },
+ "pbakaus/impeccable": {
+  "category": "设计/UI",
+  "summary": "给编码智能体注入设计词汇的技能集，用 polish、critique 等指令约束界面质量，拦住 AI 味产出。",
+  "usage": "npx 安装后在智能体中初始化",
+  "by": "agent"
+ },
+ "debpalash/VoiceStudio": {
+  "category": "AI/机器学习",
+  "summary": "完全本地运行的开源 AI 语音工作室，支持声音克隆、视频配音、转写与有声书制作，覆盖 646 种语言。",
+  "usage": "下载客户端后本地运行",
+  "by": "agent"
+ },
+ "storytold/craft-anything": {
+  "category": "AI/机器学习",
+  "summary": "用真实检测工具剖析任意网站、应用或游戏的实现，再让 AI 智能体构建、比对并迭代你的复刻版本。",
+  "usage": "官网下载后指定目标即可",
+  "by": "agent"
+ },
+ "deepseek-ai/dsh-superagent-prototype": {
+  "category": "AI/机器学习",
+  "summary": "面向单个 GitHub 仓库的主动式编码智能体，监听仓库与飞书请求，自动建工单干活并以 PR 回话。",
+  "usage": "按 DeepSeek Harness 文档部署使用",
+  "by": "agent"
+ },
+ "ccch1mneyyy/dsh-Go": {
+  "category": "移动开发",
+  "summary": "DeepSeek Harness 的 Android 客户端，内置 Linux 环境手机本机跑智能体，也能远程遥控电脑上的 DSH。",
+  "usage": "下载 APK 安装后使用",
+  "by": "agent"
+ },
+ "heydamir/unslop": {
+  "category": "设计/UI",
+  "summary": "Claude 技能，逐屏排查紫渐变、发光、emoji 标签等 AI 套路，再按产品调性像设计师走查一样重做界面。",
+  "usage": "克隆到技能目录后启用",
+  "by": "agent"
+ },
+ "l0ng-ai/openidea": {
+  "category": "桌面应用",
+  "summary": "Rust 重写的 IntelliJ 风格原生 IDE，保留键位与工具窗口习惯，支持 60 多种语言的调试、Git 与数据库客户端。",
+  "usage": "官网下载安装或解压便携版",
+  "by": "agent"
+ },
+ "wangzan101/Mika": {
+  "category": "移动开发",
+  "summary": "安卓端设备内 AI 助手，在隐藏后台屏幕替你操作应用与网页，一句话完成发消息、比价、总结聊天等任务。",
+  "usage": "安装 APK 后授权无障碍即可",
+  "by": "agent"
+ },
+ "amosblomqvist/learnharness": {
+  "category": "学习资源",
+  "summary": "学习型智能体框架，先测出你的理解边界，再按依赖图逐层规划课程，用知识图谱跨会话延续进度。",
+  "usage": "下载客户端创建学习目标",
+  "by": "agent"
+ },
+ "zortos293/Lichii": {
+  "category": "游戏开发",
+  "summary": "实验性开源 Switch/Switch 2 模拟器，基于 Eglantine、yuzu 等上游改进游戏兼容与渲染修复。",
+  "usage": "从 Releases 下载解压运行",
+  "by": "agent"
+ },
+ "Minireel/HGhub": {
+  "category": "桌面应用",
+  "summary": "基于 Rust 与 Tauri 2 的跨平台第三方视频客户端，个人维护的界面与交互实践项目。",
+  "usage": "从 Releases 下载对应平台安装包",
+  "by": "agent"
+ },
+ "anhao/ai-pose-gallery-zh": {
+  "category": "AI/机器学习",
+  "summary": "三站合一的中文 AI 绘画参考图库，收录 1.1 万余张姿势、服装、人像图，附角色合成提示词工作台。",
+  "usage": "静态托管后在线或离线浏览",
+  "by": "agent"
+ },
+ "Jakeschincariol/day-trader-skill": {
+  "category": "数据分析",
+  "summary": "11 个日内交易 Claude 技能：批量扫图、追新闻、定入场止损，并用历史数据回放 1 万次给出胜率。",
+  "usage": "免费安装技能后让 Claude 调用",
+  "by": "agent"
+ },
+ "patch-gg/pixelfx": {
+  "category": "游戏开发",
+  "summary": "244 个像素特效代码片段，覆盖火焰、爆炸、魔法、天气等，可直接用于浏览器游戏或导出精灵图。",
+  "usage": "打开图库复制代码使用",
+  "by": "agent"
+ },
+ "valentderah/totk-pc-recomp": {
+  "category": "游戏开发",
+  "summary": "把塞尔达传说王国之泪静态重编译为 Windows/Linux 原生程序，默认 60 帧并支持自定义分辨率与 DLSS。",
+  "usage": "自备游戏文件按说明构建运行",
+  "by": "agent"
+ },
+ "kingcharleslzy-ai/dsh-purge": {
+  "category": "其他",
+  "summary": "DeepSeek Harness 的社区维护插件，提供宿主兼容补丁、25 层状态自检、提示词管理与备份回滚。",
+  "usage": "按 DSH 插件安装方式载入",
+  "by": "agent"
+ },
+ "anomalyco/rune": {
+  "category": "前端开发",
+  "summary": "Rust 原生 GPU 渲染 UI 框架，自带渲染、文本、布局与弹性动画，支持无头渲染供智能体自动化测试。",
+  "usage": "克隆后按 Rust 文档集成",
+  "by": "agent"
+ },
+ "JuneYaooo/rea-video": {
+  "category": "AI/机器学习",
+  "summary": "逐镜头逆向分析视频是实拍、AI 生成还是代码制作，并给出复刻思路的智能体视频拆解工具。",
+  "usage": "装 ffmpeg 与 CLI 后交给智能体",
+  "by": "agent"
+ },
+ "LNPANDY/NX2Apple": {
+  "category": "游戏开发",
+  "summary": "图形界面一键把自备 Switch 游戏构建成 iPhone/iPad 可运行的 IPA，无需命令行、支持触控与手柄映射。",
+  "usage": "下载 Mac/Windows 启动器构建",
+  "by": "agent"
+ },
+ "Eglantine-Community/Eglantine": {
+  "category": "游戏开发",
+  "summary": "开源实验性 Switch 2 模拟器，衍生自 Eden、yuzu 与 Sudachi，已能以较流畅速度运行部分游戏。",
+  "usage": "从 Releases 下载对应平台版本",
+  "by": "agent"
+ },
+ "microsoft/TokenEconomizer": {
+  "category": "AI/机器学习",
+  "summary": "微软开源的编码智能体黑盒成本控制方案，用微技能、工具裁剪与失败循环干预降低 18-31% 调用开销。",
+  "usage": "按 README 在智能体中接入",
+  "by": "agent"
  }
 }

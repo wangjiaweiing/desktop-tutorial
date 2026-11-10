@@ -39,6 +39,10 @@
   "first_seen": "2026-10-25",
   "category": "学习资源"
  },
+ "Eglantine-Community/Eglantine": {
+  "first_seen": "2026-11-10",
+  "category": "游戏开发"
+ },
  "Fei2411/DS-Bot": {
   "first_seen": "2026-10-30",
   "category": "AI/机器学习"
@@ -63,12 +67,20 @@
   "first_seen": "2026-10-30",
   "category": "其他"
  },
+ "Jakeschincariol/day-trader-skill": {
+  "first_seen": "2026-11-10",
+  "category": "数据分析"
+ },
  "Jakeschincariol/replica-skill": {
   "first_seen": "2026-10-25",
   "category": "AI/机器学习"
  },
  "JuliusBrussee/caveman": {
   "first_seen": "2026-10-25",
+  "category": "AI/机器学习"
+ },
+ "JuneYaooo/rea-video": {
+  "first_seen": "2026-11-10",
   "category": "AI/机器学习"
  },
  "JustAResearcher/gpu-unlock-ada": {
@@ -83,12 +95,20 @@
   "first_seen": "2026-10-25",
   "category": "桌面应用"
  },
+ "LNPANDY/NX2Apple": {
+  "first_seen": "2026-11-10",
+  "category": "游戏开发"
+ },
  "Leonxlnx/taste-skill": {
   "first_seen": "2026-10-25",
   "category": "设计/UI"
  },
  "Louis-CFM/coucou": {
   "first_seen": "2026-10-25",
+  "category": "桌面应用"
+ },
+ "Minireel/HGhub": {
+  "first_seen": "2026-11-10",
   "category": "桌面应用"
  },
  "NousResearch/hermes-agent": {
@@ -147,13 +167,25 @@
   "first_seen": "2026-10-25",
   "category": "设计/UI"
  },
+ "amosblomqvist/learnharness": {
+  "first_seen": "2026-11-10",
+  "category": "学习资源"
+ },
  "angular/angular": {
   "first_seen": "2026-10-25",
   "category": "前端开发"
  },
+ "anhao/ai-pose-gallery-zh": {
+  "first_seen": "2026-11-10",
+  "category": "AI/机器学习"
+ },
  "anomalyco/opencode": {
   "first_seen": "2026-10-25",
   "category": "AI/机器学习"
+ },
+ "anomalyco/rune": {
+  "first_seen": "2026-11-10",
+  "category": "前端开发"
  },
  "ant-design/ant-design": {
   "first_seen": "2026-10-25",
@@ -183,13 +215,25 @@
   "first_seen": "2026-10-25",
   "category": "爬虫/自动化"
  },
+ "ccch1mneyyy/dsh-Go": {
+  "first_seen": "2026-11-10",
+  "category": "移动开发"
+ },
  "clash-verge-rev/clash-verge-rev": {
   "first_seen": "2026-10-25",
   "category": "桌面应用"
  },
+ "codecrafters-io/build-your-own-x": {
+  "first_seen": "2026-11-10",
+  "category": "学习资源"
+ },
  "d3/d3": {
   "first_seen": "2026-10-25",
   "category": "数据分析"
+ },
+ "debpalash/VoiceStudio": {
+  "first_seen": "2026-11-10",
+  "category": "AI/机器学习"
  },
  "deepseek-ai/DeepInfer": {
   "first_seen": "2026-10-25",
@@ -197,6 +241,10 @@
  },
  "deepseek-ai/deepseek-harness": {
   "first_seen": "2026-10-25",
+  "category": "AI/机器学习"
+ },
+ "deepseek-ai/dsh-superagent-prototype": {
+  "first_seen": "2026-11-10",
   "category": "AI/机器学习"
  },
  "denoland/deno": {
@@ -247,6 +295,10 @@
   "first_seen": "2026-10-25",
   "category": "AI/机器学习"
  },
+ "getify/You-Dont-Know-JS": {
+  "first_seen": "2026-11-10",
+  "category": "学习资源"
+ },
  "ggml-org/llama.cpp": {
   "first_seen": "2026-10-25",
   "category": "AI/机器学习"
@@ -283,6 +335,10 @@
   "first_seen": "2026-10-25",
   "category": "AI/机器学习"
  },
+ "heydamir/unslop": {
+  "first_seen": "2026-11-10",
+  "category": "设计/UI"
+ },
  "huggingface/transformers": {
   "first_seen": "2026-10-25",
   "category": "AI/机器学习"
@@ -303,6 +359,14 @@
   "first_seen": "2026-10-28",
   "category": "游戏开发"
  },
+ "jwasham/coding-interview-university": {
+  "first_seen": "2026-11-10",
+  "category": "学习资源"
+ },
+ "kingcharleslzy-ai/dsh-purge": {
+  "first_seen": "2026-11-10",
+  "category": "其他"
+ },
  "krahets/hello-algo": {
   "first_seen": "2026-10-25",
   "category": "学习资源"
@@ -310,6 +374,10 @@
  "kubernetes/kubernetes": {
   "first_seen": "2026-10-25",
   "category": "DevOps/运维"
+ },
+ "l0ng-ai/openidea": {
+  "first_seen": "2026-11-10",
+  "category": "桌面应用"
  },
  "labuladong/fucking-algorithm": {
   "first_seen": "2026-10-25",
@@ -350,6 +418,10 @@
  "microsoft/PowerToys": {
   "first_seen": "2026-10-25",
   "category": "桌面应用"
+ },
+ "microsoft/TokenEconomizer": {
+  "first_seen": "2026-11-10",
+  "category": "AI/机器学习"
  },
  "microsoft/TypeScript": {
   "first_seen": "2026-10-25",
@@ -451,6 +523,10 @@
   "first_seen": "2026-10-25",
   "category": "AI/机器学习"
  },
+ "ossu/computer-science": {
+  "first_seen": "2026-11-10",
+  "category": "学习资源"
+ },
  "oven-sh/bun": {
   "first_seen": "2026-10-25",
   "category": "后端/服务端"
@@ -462,6 +538,14 @@
  "papers-we-love/papers-we-love": {
   "first_seen": "2026-10-25",
   "category": "学习资源"
+ },
+ "patch-gg/pixelfx": {
+  "first_seen": "2026-11-10",
+  "category": "游戏开发"
+ },
+ "pbakaus/impeccable": {
+  "first_seen": "2026-11-10",
+  "category": "设计/UI"
  },
  "pengchujin/aerial-tv": {
   "first_seen": "2026-10-26",
@@ -539,6 +623,10 @@
   "first_seen": "2026-10-25",
   "category": "前端开发"
  },
+ "sherlock-project/sherlock": {
+  "first_seen": "2026-11-10",
+  "category": "安全"
+ },
  "simbasjungles/free-my-tv": {
   "first_seen": "2026-10-28",
   "category": "移动开发"
@@ -550,6 +638,10 @@
  "storytold/cadcraft": {
   "first_seen": "2026-10-25",
   "category": "设计/UI"
+ },
+ "storytold/craft-anything": {
+  "first_seen": "2026-11-10",
+  "category": "AI/机器学习"
  },
  "storytold/deckcraft": {
   "first_seen": "2026-10-30",
@@ -631,6 +723,10 @@
   "first_seen": "2026-10-30",
   "category": "AI/机器学习"
  },
+ "valentderah/totk-pc-recomp": {
+  "first_seen": "2026-11-10",
+  "category": "游戏开发"
+ },
  "vercel/next.js": {
   "first_seen": "2026-10-25",
   "category": "前端开发"
@@ -638,6 +734,10 @@
  "vinta/awesome-python": {
   "first_seen": "2026-10-25",
   "category": "学习资源"
+ },
+ "wangzan101/Mika": {
+  "first_seen": "2026-11-10",
+  "category": "移动开发"
  },
  "wheresryan22/anatomy": {
   "first_seen": "2026-10-25",
@@ -659,8 +759,16 @@
   "first_seen": "2026-10-25",
   "category": "命令行工具"
  },
+ "ytdl-org/youtube-dl": {
+  "first_seen": "2026-11-10",
+  "category": "命令行工具"
+ },
  "zhongerxin/iPhone-use": {
   "first_seen": "2026-10-25",
   "category": "爬虫/自动化"
+ },
+ "zortos293/Lichii": {
+  "first_seen": "2026-11-10",
+  "category": "游戏开发"
  }
 }
