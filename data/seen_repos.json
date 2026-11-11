@@ -31,6 +31,10 @@
   "first_seen": "2026-10-25",
   "category": "学习资源"
  },
+ "D4Vinci/Scrapling": {
+  "first_seen": "2026-11-11",
+  "category": "爬虫/自动化"
+ },
  "DietrichGebert/ponytail": {
   "first_seen": "2026-10-25",
   "category": "AI/机器学习"
@@ -110,6 +114,10 @@
  "Minireel/HGhub": {
   "first_seen": "2026-11-10",
   "category": "桌面应用"
+ },
+ "NotRexed/Hookshot": {
+  "first_seen": "2026-11-11",
+  "category": "游戏开发"
  },
  "NousResearch/hermes-agent": {
   "first_seen": "2026-10-25",

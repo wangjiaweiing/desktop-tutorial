@@ -1021,5 +1021,17 @@
   "summary": "微软开源的编码智能体黑盒成本控制方案，用微技能、工具裁剪与失败循环干预降低 18-31% 调用开销。",
   "usage": "按 README 在智能体中接入",
   "by": "agent"
+ },
+ "D4Vinci/Scrapling": {
+  "category": "爬虫/自动化",
+  "summary": "Python 网页抓取框架，整合快速 HTTP 请求、隐身浏览器、解析与并发爬取，支持代理轮换、断点续爬与数据导出。",
+  "usage": "pip 安装后在 Python 或命令行使用",
+  "by": "agent"
+ },
+ "NotRexed/Hookshot": {
+  "category": "游戏开发",
+  "summary": "把塞尔达传说：时之笛 Switch 2 重制版静态重编译为 Windows/Linux 原生程序，不用模拟器直接运行。",
+  "usage": "自备游戏文件按说明构建运行",
+  "by": "agent"
  }
 }
