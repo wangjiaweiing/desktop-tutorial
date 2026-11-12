@@ -1033,5 +1033,23 @@
   "summary": "把塞尔达传说：时之笛 Switch 2 重制版静态重编译为 Windows/Linux 原生程序，不用模拟器直接运行。",
   "usage": "自备游戏文件按说明构建运行",
   "by": "agent"
+ },
+ "anefzaoui/misterdownloadmanager": {
+  "category": "桌面应用",
+  "summary": "纯 Rust 编写的跨平台下载管理器，支持多线程加速、断点续传与 BT 种子下载，无广告无注册。",
+  "usage": "从官网下载安装包直接安装",
+  "by": "agent"
+ },
+ "huamidev/GestaltX": {
+  "category": "移动开发",
+  "summary": "iOS 设备 MobileGestalt 编辑器，改区域码以启用地区限定功能，带设备预设与一键还原。",
+  "usage": "侧载安装后选预设并应用",
+  "by": "agent"
+ },
+ "janestreet/agent_skills": {
+  "category": "AI/机器学习",
+  "summary": "Jane Street 开源的 AI 智能体技能集，含苏格拉底式导师技能，按知识点拆级逐题追问教学。",
+  "usage": "技能目录复制进智能体 skills 目录",
+  "by": "agent"
  }
 }

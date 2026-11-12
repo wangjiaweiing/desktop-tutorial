@@ -179,6 +179,10 @@
   "first_seen": "2026-11-10",
   "category": "学习资源"
  },
+ "anefzaoui/misterdownloadmanager": {
+  "first_seen": "2026-11-12",
+  "category": "桌面应用"
+ },
  "angular/angular": {
   "first_seen": "2026-10-25",
   "category": "前端开发"
@@ -347,6 +351,10 @@
   "first_seen": "2026-11-10",
   "category": "设计/UI"
  },
+ "huamidev/GestaltX": {
+  "first_seen": "2026-11-12",
+  "category": "移动开发"
+ },
  "huggingface/transformers": {
   "first_seen": "2026-10-25",
   "category": "AI/机器学习"
@@ -358,6 +366,10 @@
  "iptv-org/iptv": {
   "first_seen": "2026-10-25",
   "category": "其他"
+ },
+ "janestreet/agent_skills": {
+  "first_seen": "2026-11-12",
+  "category": "AI/机器学习"
  },
  "jaywcjlove/awesome-mac": {
   "first_seen": "2026-10-25",
