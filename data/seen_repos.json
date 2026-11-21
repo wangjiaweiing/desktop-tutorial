@@ -95,6 +95,10 @@
   "first_seen": "2026-10-25",
   "category": "AI/机器学习"
  },
+ "KKKKhazix/agent-autoloop": {
+  "first_seen": "2026-11-21",
+  "category": "爬虫/自动化"
+ },
  "KnifeLemon/Filee": {
   "first_seen": "2026-10-25",
   "category": "桌面应用"
@@ -102,6 +106,10 @@
  "LNPANDY/NX2Apple": {
   "first_seen": "2026-11-10",
   "category": "游戏开发"
+ },
+ "Lee-xeo/Claude-Cage": {
+  "first_seen": "2026-11-21",
+  "category": "安全"
  },
  "Leonxlnx/taste-skill": {
   "first_seen": "2026-10-25",
@@ -114,6 +122,10 @@
  "Minireel/HGhub": {
   "first_seen": "2026-11-10",
   "category": "桌面应用"
+ },
+ "NationalSecurityAgency/ghidra": {
+  "first_seen": "2026-11-21",
+  "category": "安全"
  },
  "NotRexed/Hookshot": {
   "first_seen": "2026-11-11",
@@ -130,6 +142,10 @@
  "QingYunA/answer-me-with-html": {
   "first_seen": "2026-10-30",
   "category": "AI/机器学习"
+ },
+ "RoutineMiku/apkstart": {
+  "first_seen": "2026-11-21",
+  "category": "桌面应用"
  },
  "Shubhamsaboo/awesome-llm-apps": {
   "first_seen": "2026-10-25",
@@ -251,6 +267,10 @@
   "first_seen": "2026-10-25",
   "category": "AI/机器学习"
  },
+ "deepseek-ai/chat-demo": {
+  "first_seen": "2026-11-21",
+  "category": "AI/机器学习"
+ },
  "deepseek-ai/deepseek-harness": {
   "first_seen": "2026-10-25",
   "category": "AI/机器学习"
@@ -263,6 +283,10 @@
   "first_seen": "2026-10-25",
   "category": "后端/服务端"
  },
+ "designfuchen/word-atlas": {
+  "first_seen": "2026-11-21",
+  "category": "学习资源"
+ },
  "earendil-works/pi": {
   "first_seen": "2026-10-25",
   "category": "AI/机器学习"
@@ -270,6 +294,10 @@
  "electron/electron": {
   "first_seen": "2026-10-25",
   "category": "桌面应用"
+ },
+ "erkamyaman/rust-anything": {
+  "first_seen": "2026-11-21",
+  "category": "命令行工具"
  },
  "excalidraw/excalidraw": {
   "first_seen": "2026-10-25",
@@ -347,9 +375,17 @@
   "first_seen": "2026-10-25",
   "category": "AI/机器学习"
  },
+ "haydenschmitty/floorplan": {
+  "first_seen": "2026-11-21",
+  "category": "文档/笔记"
+ },
  "heydamir/unslop": {
   "first_seen": "2026-11-10",
   "category": "设计/UI"
+ },
+ "huami1314/GestaltX": {
+  "first_seen": "2026-11-21",
+  "category": "移动开发"
  },
  "huamidev/GestaltX": {
   "first_seen": "2026-11-12",
@@ -362,6 +398,10 @@
  "immich-app/immich": {
   "first_seen": "2026-10-25",
   "category": "后端/服务端"
+ },
+ "interplains/Zero-Breach-Toolkit": {
+  "first_seen": "2026-11-21",
+  "category": "安全"
  },
  "iptv-org/iptv": {
   "first_seen": "2026-10-25",
@@ -391,6 +431,10 @@
   "first_seen": "2026-10-25",
   "category": "学习资源"
  },
+ "krisgfx9/Wireless-Device-Battery-Monitor": {
+  "first_seen": "2026-11-21",
+  "category": "桌面应用"
+ },
  "kubernetes/kubernetes": {
   "first_seen": "2026-10-25",
   "category": "DevOps/运维"
@@ -419,6 +463,10 @@
   "first_seen": "2026-10-25",
   "category": "AI/机器学习"
  },
+ "libracoder/kiri": {
+  "first_seen": "2026-11-21",
+  "category": "DevOps/运维"
+ },
  "localsend/localsend": {
   "first_seen": "2026-10-30",
   "category": "桌面应用"
@@ -433,6 +481,10 @@
  },
  "mattpocock/skills": {
   "first_seen": "2026-10-25",
+  "category": "AI/机器学习"
+ },
+ "mdiri-ai/SoduWork": {
+  "first_seen": "2026-11-21",
   "category": "AI/机器学习"
  },
  "microsoft/PowerToys": {
@@ -591,6 +643,10 @@
   "first_seen": "2026-10-25",
   "category": "AI/机器学习"
  },
+ "qybaihe/bla": {
+  "first_seen": "2026-11-21",
+  "category": "安全"
+ },
  "rasbt/LLMs-from-scratch": {
   "first_seen": "2026-10-25",
   "category": "学习资源"
@@ -746,6 +802,10 @@
  "valentderah/totk-pc-recomp": {
   "first_seen": "2026-11-10",
   "category": "游戏开发"
+ },
+ "vercel-labs/ui": {
+  "first_seen": "2026-11-21",
+  "category": "前端开发"
  },
  "vercel/next.js": {
   "first_seen": "2026-10-25",

@@ -1051,5 +1051,95 @@
   "summary": "Jane Street 开源的 AI 智能体技能集，含苏格拉底式导师技能，按知识点拆级逐题追问教学。",
   "usage": "技能目录复制进智能体 skills 目录",
   "by": "agent"
+ },
+ "NationalSecurityAgency/ghidra": {
+  "category": "安全",
+  "summary": "NSA 开源的逆向工程套件，支持多平台二进制的反汇编、反编译、图形分析与脚本扩展。",
+  "usage": "下载发行包解压后运行 ghidraRun",
+  "by": "agent"
+ },
+ "libracoder/kiri": {
+  "category": "DevOps/运维",
+  "summary": "Rust 轻量容器运行时，兼容 docker CLI 与 Compose，替代启动慢的 Docker Desktop。",
+  "usage": "brew 安装或下载安装包后启动",
+  "by": "agent"
+ },
+ "RoutineMiku/apkstart": {
+  "category": "桌面应用",
+  "summary": "让 Windows 双击安装运行安卓 APK，每个应用独立窗口和桌面图标，自带 QEMU 运行时。",
+  "usage": "安装后双击 APK 即装并生成图标",
+  "by": "agent"
+ },
+ "huami1314/GestaltX": {
+  "category": "移动开发",
+  "summary": "iOS 的 MobileGestalt 编辑器，改区域码与销售地区以启用地区限定功能，支持预设与还原。",
+  "usage": "侧载安装后选预设应用并重启",
+  "by": "agent"
+ },
+ "Lee-xeo/Claude-Cage": {
+  "category": "安全",
+  "summary": "把 Claude Code 等程序关进轻量虚拟机隔离运行，经 MCP 插件受控调用本机能力，支持多账号。",
+  "usage": "下载对应平台安装包后启动配置",
+  "by": "agent"
+ },
+ "erkamyaman/rust-anything": {
+  "category": "命令行工具",
+  "summary": "把现有应用逐块改写成 Rust，每步都用原程序录制的行为做对照，确保改写后行为一致。",
+  "usage": "装 CLI 后指向项目录制并改写",
+  "by": "agent"
+ },
+ "qybaihe/bla": {
+  "category": "安全",
+  "summary": "对抗 AI 逆向的蓝队防护工具，用混淆和投毒让反编译代理失效，覆盖 JS、WASM 与原生二进制。",
+  "usage": "npx 安装后对构建产物执行防护",
+  "by": "agent"
+ },
+ "vercel-labs/ui": {
+  "category": "前端开发",
+  "summary": "Vercel 的 UI 行为库，把键盘导航、焦点、弹层、拖拽和 ARIA 封装成可组合原语，适配多框架。",
+  "usage": "npm 装 core 与框架适配包",
+  "by": "agent"
+ },
+ "KKKKhazix/agent-autoloop": {
+  "category": "爬虫/自动化",
+  "summary": "让命令行 Agent 在后台自动接活并跟进到底，只有需要拍板时才推卡片到飞书、钉钉等渠道。",
+  "usage": "一行安装脚本装好后接 Agent",
+  "by": "agent"
+ },
+ "mdiri-ai/SoduWork": {
+  "category": "AI/机器学习",
+  "summary": "自托管的多智能体协作引擎，为不同步骤分配不同 harness 与模型，并带上线治理与审核。",
+  "usage": "克隆仓库后按文档启动服务",
+  "by": "agent"
+ },
+ "haydenschmitty/floorplan": {
+  "category": "文档/笔记",
+  "summary": "让 Claude 或 Codex 读代码库并画出可交互结构图，用大白话标注每个文件和请求的作用。",
+  "usage": "作为插件装进 Claude Code 后运行",
+  "by": "agent"
+ },
+ "krisgfx9/Wireless-Device-Battery-Monitor": {
+  "category": "桌面应用",
+  "summary": "在 Windows 任务栏显示无线鼠标、键盘、耳机和手柄电量，免装厂商驱动，体积极小。",
+  "usage": "下载 exe 直接运行，无需管理员",
+  "by": "agent"
+ },
+ "interplains/Zero-Breach-Toolkit": {
+  "category": "安全",
+  "summary": "离线自查设备是否留有 Pegasus 等商业间谍软件痕迹，覆盖电脑、安卓与 iPhone 备份。",
+  "usage": "下载发行版打开界面选扫描",
+  "by": "agent"
+ },
+ "designfuchen/word-atlas": {
+  "category": "学习资源",
+  "summary": "雅思背词应用，7298 个词条配原创插画、英美发音与 FSRS 间隔复习，进度只存本地。",
+  "usage": "npm 装依赖后本地启动或装 App",
+  "by": "agent"
+ },
+ "deepseek-ai/chat-demo": {
+  "category": "AI/机器学习",
+  "summary": "DeepSeek 官方静态聊天前端，浏览器直连 API 无需后端，填上 API Key 即可对话。",
+  "usage": "解压后双击 index.html 填 Key",
+  "by": "agent"
  }
 }
