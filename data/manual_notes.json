@@ -1141,5 +1141,17 @@
   "summary": "DeepSeek 官方静态聊天前端，浏览器直连 API 无需后端，填上 API Key 即可对话。",
   "usage": "解压后双击 index.html 填 Key",
   "by": "agent"
+ },
+ "ItsNotRexed/Leonida": {
+  "category": "游戏开发",
+  "summary": "把 GTA6 Xbox 版静态重编译为 Windows 原生程序，读自购副本运行，尚处早期未能启动游戏。",
+  "usage": "克隆后按构建文档编译，需自备游戏",
+  "by": "agent"
+ },
+ "ersinkoc/phonebox": {
+  "category": "桌面应用",
+  "summary": "把旧安卓手机变成电脑桌面面板，显示系统状态、AI 编程会话与媒体触控，USB 或 Wi-Fi 连接无需云端。",
+  "usage": "装安卓 App 与桌面端后配对连接",
+  "by": "agent"
  }
 }

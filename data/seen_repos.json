@@ -71,6 +71,10 @@
   "first_seen": "2026-10-30",
   "category": "其他"
  },
+ "ItsNotRexed/Leonida": {
+  "first_seen": "2026-11-23",
+  "category": "游戏开发"
+ },
  "Jakeschincariol/day-trader-skill": {
   "first_seen": "2026-11-10",
   "category": "数据分析"
@@ -298,6 +302,10 @@
  "erkamyaman/rust-anything": {
   "first_seen": "2026-11-21",
   "category": "命令行工具"
+ },
+ "ersinkoc/phonebox": {
+  "first_seen": "2026-11-23",
+  "category": "桌面应用"
  },
  "excalidraw/excalidraw": {
   "first_seen": "2026-10-25",
