@@ -15,6 +15,10 @@
   "first_seen": "2026-10-25",
   "category": "学习资源"
  },
+ "BryceYuuu/RUN": {
+  "first_seen": "2026-11-24",
+  "category": "文档/笔记"
+ },
  "Chalarangelo/30-seconds-of-code": {
   "first_seen": "2026-10-25",
   "category": "学习资源"
@@ -311,6 +315,10 @@
   "first_seen": "2026-10-25",
   "category": "设计/UI"
  },
+ "expo/exact": {
+  "first_seen": "2026-11-24",
+  "category": "前端开发"
+ },
  "f/prompts.chat": {
   "first_seen": "2026-10-25",
   "category": "AI/机器学习"
@@ -382,6 +390,10 @@
  "harry0703/MoneyPrinterTurbo": {
   "first_seen": "2026-10-25",
   "category": "AI/机器学习"
+ },
+ "havenicec/google-qr-sms-helper": {
+  "first_seen": "2026-11-24",
+  "category": "浏览器扩展"
  },
  "haydenschmitty/floorplan": {
   "first_seen": "2026-11-21",
@@ -531,6 +543,10 @@
   "first_seen": "2026-10-25",
   "category": "桌面应用"
  },
+ "modelflare-ai/AnyModelBot": {
+  "first_seen": "2026-11-24",
+  "category": "AI/机器学习"
+ },
  "morluto/rea": {
   "first_seen": "2026-10-25",
   "category": "安全"
@@ -538,6 +554,10 @@
  "mrdoob/three.js": {
   "first_seen": "2026-10-25",
   "category": "前端开发"
+ },
+ "mromidev/claude-animated-shorts": {
+  "first_seen": "2026-11-24",
+  "category": "AI/机器学习"
  },
  "msitarzewski/agency-agents": {
   "first_seen": "2026-10-25",
@@ -778,6 +798,10 @@
  "tangency-labs/solidcraft": {
   "first_seen": "2026-10-25",
   "category": "设计/UI"
+ },
+ "tangerineturtle1/NX2navi": {
+  "first_seen": "2026-11-24",
+  "category": "游戏开发"
  },
  "tauri-apps/tauri": {
   "first_seen": "2026-10-25",

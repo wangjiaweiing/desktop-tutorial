@@ -1153,5 +1153,41 @@
   "summary": "把旧安卓手机变成电脑桌面面板，显示系统状态、AI 编程会话与媒体触控，USB 或 Wi-Fi 连接无需云端。",
   "usage": "装安卓 App 与桌面端后配对连接",
   "by": "agent"
+ },
+ "BryceYuuu/RUN": {
+  "category": "文档/笔记",
+  "summary": "面向中国护照持有人的海外移居手册，整理欧洲 36 国 110 条移民路线与 13 个地区，每条附官方来源。",
+  "usage": "浏览器打开在线手册，按分类查阅路线",
+  "by": "agent"
+ },
+ "modelflare-ai/AnyModelBot": {
+  "category": "AI/机器学习",
+  "summary": "跑在本地电脑的 AI 机器人客户端，一个入口接 70 多个模型，可接入微信飞书聊天，支持记忆与执行电脑操作。",
+  "usage": "官网下载安装后配置模型密钥使用",
+  "by": "agent"
+ },
+ "expo/exact": {
+  "category": "前端开发",
+  "summary": "全平台应用框架，一套代码在网页、iOS、macOS 与 Linux 上原生运行，专为 AI 代理构建测试优化。",
+  "usage": "按官方文档创建项目后编译运行",
+  "by": "agent"
+ },
+ "mromidev/claude-animated-shorts": {
+  "category": "AI/机器学习",
+  "summary": "免费 Claude 技能，用 three.js 与 Remotion 在本机渲染 2D 角色 3D 世界的竖屏动画短片。",
+  "usage": "复制到 Claude 技能目录后对话调用",
+  "by": "agent"
+ },
+ "havenicec/google-qr-sms-helper": {
+  "category": "浏览器扩展",
+  "summary": "Chrome 扩展，把 Google 登录强制扫码验证降级回手机号接收 6 位短信验证码的旧流程，提升桌面端可用性。",
+  "usage": "下载 Release 解压后在扩展页加载",
+  "by": "agent"
+ },
+ "tangerineturtle1/NX2navi": {
+  "category": "游戏开发",
+  "summary": "把塞尔达传说时之笛 Switch 2 版静态重编译为 Windows 原生程序，可 60 帧流畅运行。",
+  "usage": "下载 Release 后加载自购游戏副本",
+  "by": "agent"
  }
 }
