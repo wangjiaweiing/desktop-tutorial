@@ -1189,5 +1189,41 @@
   "summary": "把塞尔达传说时之笛 Switch 2 版静态重编译为 Windows 原生程序，可 60 帧流畅运行。",
   "usage": "下载 Release 后加载自购游戏副本",
   "by": "agent"
+ },
+ "Marvisak/VIctory": {
+  "category": "游戏开发",
+  "summary": "在 Windows 上原生运行 Xbox 主机版 GTA VI 的兼容层，目前能进序章但帧率只有约 1fps。",
+  "usage": "下载源码按文档准备游戏文件运行",
+  "by": "agent"
+ },
+ "xcl-dev/xcl": {
+  "category": "游戏开发",
+  "summary": "Windows 上的 Xbox Series 游戏兼容层，原生跑主机代码并重编译 RDNA2 着色器。",
+  "usage": "按 README 快速开始加载自购游戏",
+  "by": "agent"
+ },
+ "Hut-hzf/ung220z-tool": {
+  "category": "安全",
+  "summary": "光猫凭据自查工具，一键提取 UNG220Z 当前有效管理密码，适配中兴烽火华为九联多厂商并识别固件指纹。",
+  "usage": "输入光猫账号密码运行 Python 脚本",
+  "by": "agent"
+ },
+ "simplexai-labs/linger": {
+  "category": "AI/机器学习",
+  "summary": "完全跑在本机的开源个人 AI 代理，12GB 显存可运行 125B 模型，能记住邮件日程并主动提醒和代办。",
+  "usage": "按官网指引安装后配置本地模型",
+  "by": "agent"
+ },
+ "XinaTian/MROffice": {
+  "category": "前端开发",
+  "summary": "浏览器里的开源 AI 办公套件，文档表格幻灯片编辑器由 Copilot 协作，直接编辑真实 Word Excel 文件。",
+  "usage": "在线试用或克隆后本地启动",
+  "by": "agent"
+ },
+ "JenkinWoo/sheeridVerify": {
+  "category": "爬虫/自动化",
+  "summary": "Node.js 验证流程工作台，提供本地 Web 任务队列与浏览器表单交互，面向教学与授权流程测试。",
+  "usage": "克隆后 npm ci 安装依赖启动",
+  "by": "agent"
  }
 }

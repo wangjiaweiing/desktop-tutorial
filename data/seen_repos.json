@@ -75,6 +75,10 @@
   "first_seen": "2026-10-30",
   "category": "其他"
  },
+ "Hut-hzf/ung220z-tool": {
+  "first_seen": "2026-11-26",
+  "category": "安全"
+ },
  "ItsNotRexed/Leonida": {
   "first_seen": "2026-11-23",
   "category": "游戏开发"
@@ -86,6 +90,10 @@
  "Jakeschincariol/replica-skill": {
   "first_seen": "2026-10-25",
   "category": "AI/机器学习"
+ },
+ "JenkinWoo/sheeridVerify": {
+  "first_seen": "2026-11-26",
+  "category": "爬虫/自动化"
  },
  "JuliusBrussee/caveman": {
   "first_seen": "2026-10-25",
@@ -126,6 +134,10 @@
  "Louis-CFM/coucou": {
   "first_seen": "2026-10-25",
   "category": "桌面应用"
+ },
+ "Marvisak/VIctory": {
+  "first_seen": "2026-11-26",
+  "category": "游戏开发"
  },
  "Minireel/HGhub": {
   "first_seen": "2026-11-10",
@@ -182,6 +194,10 @@
  "VoltAgent/awesome-design-md": {
   "first_seen": "2026-10-25",
   "category": "设计/UI"
+ },
+ "XinaTian/MROffice": {
+  "first_seen": "2026-11-26",
+  "category": "前端开发"
  },
  "Zagitta/gpu-unlock": {
   "first_seen": "2026-10-26",
@@ -735,6 +751,10 @@
   "first_seen": "2026-10-28",
   "category": "移动开发"
  },
+ "simplexai-labs/linger": {
+  "first_seen": "2026-11-26",
+  "category": "AI/机器学习"
+ },
  "stablyai/orca": {
   "first_seen": "2026-10-25",
   "category": "AI/机器学习"
@@ -858,6 +878,10 @@
  "x1xhlol/system-prompts-and-models-of-ai-tools": {
   "first_seen": "2026-10-25",
   "category": "AI/机器学习"
+ },
+ "xcl-dev/xcl": {
+  "first_seen": "2026-11-26",
+  "category": "游戏开发"
  },
  "xiaoyang111222/cn-math-taxonomy": {
   "first_seen": "2026-10-30",
